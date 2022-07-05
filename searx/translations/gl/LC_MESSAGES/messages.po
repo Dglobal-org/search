@@ -1,0 +1,1113 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Xosé M. <correo@xmgz.eu>, 2020
+# Xosé M. <correo@xmgz.eu>, 2018-2019
+msgid ""
+msgstr ""
+"Project-Id-Version: searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-18 02:49+0200\n"
+"PO-Revision-Date: 2020-10-01 03:46+0000\n"
+"Last-Translator: Xosé M. <correo@xmgz.eu>\n"
+"Language-Team: Galician (http://www.transifex.com/asciimoo/searx/language/"
+"gl/)\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../searx/webapp.py:164
+msgid "files"
+msgstr "ficheiros"
+
+#: ../searx/webapp.py:165
+msgid "general"
+msgstr "xeral"
+
+#: ../searx/webapp.py:166
+msgid "music"
+msgstr "música"
+
+#: ../searx/webapp.py:167
+msgid "social media"
+msgstr "medios sociais"
+
+#: ../searx/webapp.py:168
+msgid "images"
+msgstr "imaxes"
+
+#: ../searx/webapp.py:169
+msgid "videos"
+msgstr "vídeos"
+
+#: ../searx/webapp.py:170
+msgid "it"
+msgstr "TIC"
+
+#: ../searx/webapp.py:171
+msgid "news"
+msgstr "novas"
+
+#: ../searx/webapp.py:172
+msgid "map"
+msgstr "mapa"
+
+#: ../searx/webapp.py:173
+msgid "onions"
+msgstr ""
+
+#: ../searx/webapp.py:174
+msgid "science"
+msgstr "ciencia"
+
+#: ../searx/webapp.py:375
+msgid "could not load data"
+msgstr ""
+
+#: ../searx/webapp.py:377
+msgid "No item found"
+msgstr "Non se atoparon elementos"
+
+#: ../searx/webapp.py:483 ../searx/webapp.py:848
+msgid "Invalid settings, please edit your preferences"
+msgstr "Axustes non válidos, por favor edita a configuración"
+
+#: ../searx/webapp.py:499
+msgid "Invalid settings"
+msgstr "Axustes non válidos"
+
+#: ../searx/webapp.py:564 ../searx/webapp.py:629
+msgid "search error"
+msgstr "fallo na busca"
+
+#: ../searx/webapp.py:672
+msgid "{minutes} minute(s) ago"
+msgstr "fai {minutes} minuto(s)"
+
+#: ../searx/webapp.py:674
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "fai {hours} hora(s), {minutes} minuto(s)"
+
+#: ../searx/answerers/statistics/answerer.py:54
+msgid "Statistics functions"
+msgstr "Funcións de estatística"
+
+#: ../searx/answerers/statistics/answerer.py:55
+msgid "Compute {functions} of the arguments"
+msgstr "Calcula {functions} dos argumentos"
+
+#: ../searx/engines/__init__.py:251
+msgid "Engine time (sec)"
+msgstr "Tempo de busca (seg)"
+
+#: ../searx/engines/__init__.py:255
+msgid "Page loads (sec)"
+msgstr "Cargou en (seg)"
+
+#: ../searx/engines/__init__.py:259 ../searx/templates/oscar/results.html:34
+msgid "Number of results"
+msgstr "Número de resultados"
+
+#: ../searx/engines/__init__.py:263
+msgid "Scores"
+msgstr "Puntuacións"
+
+#: ../searx/engines/__init__.py:267
+msgid "Scores per result"
+msgstr "Puntuacións por resultado"
+
+#: ../searx/engines/__init__.py:271
+msgid "Errors"
+msgstr "Fallos"
+
+#: ../searx/engines/openstreetmap.py:49
+msgid "Get directions"
+msgstr "Obter direccións"
+
+#: ../searx/engines/pdbe.py:90
+msgid "{title} (OBSOLETE)"
+msgstr "{title} (OBSOLETO)"
+
+#: ../searx/engines/pdbe.py:97
+msgid "This entry has been superseded by"
+msgstr "Esta entrada foi proporcionada por"
+
+#: ../searx/engines/pubmed.py:78
+msgid "No abstract is available for this publication."
+msgstr "Non hai dispoñible un extracto para esta publicación."
+
+#: ../searx/plugins/better_answerer.py:9
+#, fuzzy
+#| msgid "Answerers"
+msgid "Better Answerers"
+msgstr "Respostas"
+
+#: ../searx/plugins/better_answerer.py:10
+msgid "Module to improve the Answerer functionality in searx"
+msgstr ""
+
+#: ../searx/plugins/hostname_replace.py:7
+msgid "Hostname replace"
+msgstr ""
+
+#: ../searx/plugins/hostname_replace.py:8
+msgid "Rewrite result hostnames"
+msgstr ""
+
+#: ../searx/plugins/https_rewrite.py:29
+msgid "Rewrite HTTP links to HTTPS if possible"
+msgstr "Reescribir ligazóns HTTP a HTTPS se fose posible"
+
+#: ../searx/plugins/infinite_scroll.py:3
+msgid "Infinite scroll"
+msgstr "Desprazamento infinito"
+
+#: ../searx/plugins/infinite_scroll.py:4
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr ""
+"Cargar automáticamente a seguinte páxina ó desprazarse ó fondo da páxina "
+"actual"
+
+#: ../searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr "Reescritura Open Access DOI"
+
+#: ../searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications when "
+"available"
+msgstr ""
+"Evitar muros de pago redirecciionando a versións públicas das publicacións "
+"cando estén dispoñibles"
+
+#: ../searx/plugins/search_on_category_select.py:18
+msgid "Search on category select"
+msgstr "Busca en categoría seleccionada"
+
+#: ../searx/plugins/search_on_category_select.py:19
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+"Busca ó momento se hai unha categoría seleccionada. Desactivar para "
+"seleccionar múltiples categorías. (Require JavaScript)"
+
+#: ../searx/plugins/self_info.py:19
+#, fuzzy
+#| msgid "Information!"
+msgid "Self Informations"
+msgstr "Información!"
+
+#: ../searx/plugins/self_info.py:20
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr ""
+"Mostra o teu IP se a consulta é \"ip\" e o teu Use Agent  se a consulta "
+"contén \"user agent\"."
+
+#: ../searx/plugins/tracker_url_remover.py:27
+msgid "Tracker URL remover"
+msgstr "Eliminador de rastrexadores na URL"
+
+#: ../searx/plugins/tracker_url_remover.py:28
+msgid "Remove trackers arguments from the returned URL"
+msgstr "Elimina os argumentos de rastrexo da URL devolta"
+
+#: ../searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr "Atallos como os de Vim"
+
+#: ../searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). Press "
+"\"h\" key on main or result page to get help."
+msgstr ""
+"Navegar nos resultados da busca con atallos como os de Vim (require "
+"JavaScript). Preme \"h\" na pantalla principal ou de resultados para obter "
+"axuda."
+
+#: ../searx/plugins/answerer/alternative/answerer.py:24
+msgid "The ToS;DR Team"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:85
+msgid "Privacy Alternative"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:86
+msgid "Get privacy friendly alternatives from popular services."
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:90
+msgid "Report a bug to the maintainer"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/templates/answer.html:1
+msgid "Privacy friendly alternatives to {service}"
+msgstr ""
+
+#: ../searx/plugins/answerer/ascii/answerer.py:41
+#, fuzzy
+#| msgid "Shortcut"
+msgid "Ascii Shortcuts"
+msgstr "Atallo"
+
+#: ../searx/plugins/answerer/ascii/answerer.py:42
+msgid "Does some Ascii Stuff"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:96
+msgid "Bitcoin Index"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:97
+msgid "Get a the bitcoin index via currency or by default via USD, EUR and GBP"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/templates/all.html:1
+#: ../searx/plugins/answerer/bitcoin/templates/currency.html:1
+msgid "The current Bitcoin index is"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:79
+msgid "Cheatsheet Index"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:80
+msgid "Cheatsheet module to load some awesome modules found around the web."
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:1
+msgid "Guitar Cheatsheet"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:24
+msgid "Cheatsheet Images by {source}"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:82
+msgid "{service} has a Privacy {grade} on ToS;DR"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:116
+msgid "ToS;DR Grade"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:117
+msgid "Get a grade from ToS;DR using the ToS;DR API"
+msgstr ""
+
+#: ../searx/plugins/answerer/hash/answerer.py:69
+msgid "Hash Generator"
+msgstr ""
+
+#: ../searx/plugins/answerer/hash/answerer.py:70
+msgid "Generate md4, md5, sha1, sha256 and sha512 hashes"
+msgstr ""
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:64
+msgid "Leetspeak Answerer"
+msgstr ""
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:65
+msgid "L 3 3 '][' 5 |D 3 /-\\ |< I 5 C 0 0 |_"
+msgstr ""
+
+#: ../searx/plugins/answerer/nato/answerer.py:66
+msgid "Nato Converter"
+msgstr ""
+
+#: ../searx/plugins/answerer/nato/answerer.py:67
+msgid "Converts words into the nato phonetic alphabet"
+msgstr ""
+
+#: ../searx/plugins/answerer/onion/answerer.py:40
+msgid "Onion Notice"
+msgstr ""
+
+#: ../searx/plugins/answerer/onion/answerer.py:41
+msgid "Give a notice if an onion address has been queried"
+msgstr ""
+
+#: ../searx/plugins/answerer/random/answerer.py:94
+msgid "Random value generator"
+msgstr "Xerador de valor aleatorio"
+
+#: ../searx/plugins/answerer/random/answerer.py:95
+msgid "Generate different random values"
+msgstr "Xerar diferentes valores aleatorios"
+
+#: ../searx/templates/oscar/404.html:4
+msgid "Page not found"
+msgstr "Páxina non atopada"
+
+#: ../searx/templates/oscar/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "Ir a %(search_page)s"
+
+#: ../searx/templates/oscar/404.html:6
+msgid "search page"
+msgstr "páxina de busca"
+
+#: ../searx/templates/oscar/about.html:2 ../searx/templates/oscar/navbar.html:6
+msgid "about"
+msgstr "Acerca de"
+
+#: ../searx/templates/oscar/advanced.html:4
+msgid "Advanced settings"
+msgstr "Axustes avanzados"
+
+#: ../searx/templates/oscar/base.html:77
+#: ../searx/templates/oscar/messages/first_time.html:4
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:5
+#: ../searx/templates/oscar/messages/unknow_error.html:5
+msgid "Close"
+msgstr "Pechar"
+
+#: ../searx/templates/oscar/base.html:79
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Error!"
+msgstr "Fallo!"
+
+#: ../searx/templates/oscar/base.html:107
+msgid "Powered by {searx} and forked by {tosdr}"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:108
+msgid "{version} on commit {hash}"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:109
+msgid "a privacy-respecting, hackable metasearch engine"
+msgstr "un metabuscador configurable que respecta a túa privacidade"
+
+#: ../searx/templates/oscar/base.html:110
+msgid "Source code"
+msgstr "Código fonte"
+
+#: ../searx/templates/oscar/base.html:111
+msgid "Issue tracker"
+msgstr "Seguimento de problemas"
+
+#: ../searx/templates/oscar/base.html:113
+msgid "Contact instance maintainer"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:115
+msgid "Translate ToS;DR Search"
+msgstr ""
+
+#: ../searx/templates/oscar/languages.html:2
+msgid "Language"
+msgstr "Idioma"
+
+#: ../searx/templates/oscar/languages.html:4
+msgid "Default language"
+msgstr "Idioma por omisión"
+
+#: ../searx/templates/oscar/macros.html:23
+msgid "magnet link"
+msgstr "ligazón magnet"
+
+#: ../searx/templates/oscar/macros.html:24
+msgid "torrent file"
+msgstr "ficheiro torrent"
+
+#: ../searx/templates/oscar/macros.html:36
+#: ../searx/templates/oscar/macros.html:38
+#: ../searx/templates/oscar/macros.html:72
+#: ../searx/templates/oscar/macros.html:74
+msgid "cached"
+msgstr "en memoria"
+
+#: ../searx/templates/oscar/macros.html:42
+#: ../searx/templates/oscar/macros.html:58
+#: ../searx/templates/oscar/macros.html:78
+#: ../searx/templates/oscar/macros.html:92
+msgid "proxied"
+msgstr "a través de proxy"
+
+#: ../searx/templates/oscar/macros.html:132
+#: ../searx/templates/oscar/preferences.html:252
+#: ../searx/templates/oscar/preferences.html:269
+msgid "Allow"
+msgstr "Permitir"
+
+#: ../searx/templates/oscar/macros.html:139
+msgid "supported"
+msgstr "soportado"
+
+#: ../searx/templates/oscar/macros.html:143
+msgid "not supported"
+msgstr "non soportado"
+
+#: ../searx/templates/oscar/navbar.html:7
+#: ../searx/templates/oscar/preferences.html:16
+msgid "preferences"
+msgstr "axustes"
+
+#: ../searx/templates/oscar/preferences.html:12
+msgid "No HTTPS"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:21
+msgid "Preferences"
+msgstr "Axustes"
+
+#: ../searx/templates/oscar/preferences.html:26
+#: ../searx/templates/oscar/preferences.html:36
+msgid "General"
+msgstr "Xeral"
+
+#: ../searx/templates/oscar/preferences.html:27
+#: ../searx/templates/oscar/preferences.html:226
+msgid "Engines"
+msgstr "Motores"
+
+#: ../searx/templates/oscar/preferences.html:28
+#: ../searx/templates/oscar/preferences.html:329
+msgid "Plugins"
+msgstr "Engadidos"
+
+#: ../searx/templates/oscar/preferences.html:30
+#: ../searx/templates/oscar/preferences.html:359
+msgid "Answerers"
+msgstr "Respostas"
+
+#: ../searx/templates/oscar/preferences.html:31
+#: ../searx/templates/oscar/preferences.html:412
+msgid "Cookies"
+msgstr "Testemuños"
+
+#: ../searx/templates/oscar/preferences.html:49
+#: ../searx/templates/oscar/preferences.html:52
+msgid "Default categories"
+msgstr "Categorías por omisión"
+
+#: ../searx/templates/oscar/preferences.html:60
+msgid "Search language"
+msgstr "Idioma de busca"
+
+#: ../searx/templates/oscar/preferences.html:61
+msgid "What language do you prefer for search?"
+msgstr "Qué idioma prefires para buscar?"
+
+#: ../searx/templates/oscar/preferences.html:68
+msgid "Interface language"
+msgstr "Idioma da interface"
+
+#: ../searx/templates/oscar/preferences.html:69
+msgid "Change the language of the layout"
+msgstr "Cambiar o idioma da disposición"
+
+#: ../searx/templates/oscar/preferences.html:81
+msgid "Autocomplete"
+msgstr "Autocompletar"
+
+#: ../searx/templates/oscar/preferences.html:82
+msgid "Find stuff as you type"
+msgstr "Buscar nas cousas metras escribes"
+
+#: ../searx/templates/oscar/preferences.html:96
+msgid "Image proxy"
+msgstr "Proxy de imaxes"
+
+#: ../searx/templates/oscar/preferences.html:97
+msgid "Proxying image results through searx"
+msgstr "Utilizar o proxy de searx para as imaxes dos resultados"
+
+#: ../searx/templates/oscar/preferences.html:102
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../searx/templates/oscar/preferences.html:104
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: ../searx/templates/oscar/preferences.html:110
+msgid "Method"
+msgstr "Método"
+
+#: ../searx/templates/oscar/preferences.html:111
+msgid ""
+"Change how forms are submited, <a href=\"http://en.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">learn more "
+"about request methods</a>"
+msgstr ""
+"Cambiar cómo se envían os formularios, <a href=\"http://en.wikipedia.org/"
+"wiki/Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">aprende "
+"máis sobre os métodos de consulta</a>"
+
+#: ../searx/templates/oscar/preferences.html:123
+#: ../searx/templates/oscar/preferences.html:256
+#: ../searx/templates/oscar/preferences.html:264
+msgid "SafeSearch"
+msgstr "Busca segura"
+
+#: ../searx/templates/oscar/preferences.html:124
+msgid "Filter content"
+msgstr "Filtro de contido"
+
+#: ../searx/templates/oscar/preferences.html:129
+msgid "Strict"
+msgstr "Estrita"
+
+#: ../searx/templates/oscar/preferences.html:131
+msgid "Moderate"
+msgstr "Moderada"
+
+#: ../searx/templates/oscar/preferences.html:133
+msgid "None"
+msgstr "Ningunha"
+
+#: ../searx/templates/oscar/preferences.html:139
+msgid "Themes"
+msgstr "Decorados"
+
+#: ../searx/templates/oscar/preferences.html:140
+msgid "Change searx layout"
+msgstr "Cambiar a disposición de searx"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Choose style for this theme"
+msgstr "Escolle o estilo para este decorado"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Style"
+msgstr "Estilo"
+
+#: ../searx/templates/oscar/preferences.html:164
+msgid "Results on new tabs"
+msgstr "Resultados en novas lapelas"
+
+#: ../searx/templates/oscar/preferences.html:165
+msgid "Open result links on new browser tabs"
+msgstr "Abrir ligazóns de resultados en novas lapelas do navegador"
+
+#: ../searx/templates/oscar/preferences.html:170
+#: ../searx/templates/oscar/preferences.html:183
+msgid "On"
+msgstr "On"
+
+#: ../searx/templates/oscar/preferences.html:172
+#: ../searx/templates/oscar/preferences.html:185
+msgid "Off"
+msgstr "Off"
+
+#: ../searx/templates/oscar/preferences.html:177
+#, fuzzy
+#| msgid "Advanced settings"
+msgid "Show advanced settings"
+msgstr "Axustes avanzados"
+
+#: ../searx/templates/oscar/preferences.html:178
+msgid "Show advanced settings panel in the home page by default"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:190
+msgid "Open Access DOI resolver"
+msgstr "Resolutor Open Access DOI"
+
+#: ../searx/templates/oscar/preferences.html:191
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+"Redireccionar a versións abertas das publicacións cando estén dispoñibles "
+"(require o engadido)"
+
+#: ../searx/templates/oscar/preferences.html:205
+msgid "Engine tokens"
+msgstr "Tokens do buscador"
+
+#: ../searx/templates/oscar/preferences.html:206
+msgid "Access tokens for private engines"
+msgstr "Tokens de acceso para buscadores privados"
+
+#: ../searx/templates/oscar/preferences.html:235
+msgid "Allow all"
+msgstr "Permitir todo"
+
+#: ../searx/templates/oscar/preferences.html:237
+msgid "Disable all"
+msgstr "Desactivar todo"
+
+#: ../searx/templates/oscar/preferences.html:253
+#: ../searx/templates/oscar/preferences.html:268
+msgid "Engine name"
+msgstr "Nome do motor"
+
+#: ../searx/templates/oscar/preferences.html:254
+#: ../searx/templates/oscar/preferences.html:267
+msgid "Shortcut"
+msgstr "Atallo"
+
+#: ../searx/templates/oscar/preferences.html:255
+#: ../searx/templates/oscar/preferences.html:266
+msgid "Selected language"
+msgstr "Idioma seleccionado"
+
+#: ../searx/templates/oscar/preferences.html:257
+#: ../searx/templates/oscar/preferences.html:263
+#: ../searx/templates/oscar/time-range.html:2
+msgid "Time range"
+msgstr "Marco temporal"
+
+#: ../searx/templates/oscar/preferences.html:258
+#: ../searx/templates/oscar/preferences.html:262
+msgid "Avg. time"
+msgstr "Tempo medio"
+
+#: ../searx/templates/oscar/preferences.html:259
+#: ../searx/templates/oscar/preferences.html:261
+msgid "Max time"
+msgstr "Tempo máx."
+
+#: ../searx/templates/oscar/preferences.html:362
+msgid "This is the list of searx's instant answering modules."
+msgstr "Este é o listado dos módulos de respostas instantáneas de searx"
+
+#: ../searx/templates/oscar/preferences.html:366
+msgid "Name"
+msgstr "Nome"
+
+#: ../searx/templates/oscar/preferences.html:367
+#: ../searx/templates/oscar/results.html:191
+#: ../searx/templates/oscar/results.html:196
+#: ../searx/templates/oscar/results.html:204
+#: ../searx/templates/oscar/results.html:209
+msgid "Developer"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:368
+msgid "Description"
+msgstr "Descrición"
+
+#: ../searx/templates/oscar/preferences.html:369
+msgid "Examples"
+msgstr "Exemplos"
+
+#: ../searx/templates/oscar/preferences.html:415
+msgid ""
+"This is the list of cookies and their values searx is storing on your "
+"computer."
+msgstr ""
+"Este é o listados dos testemuños e os seus valores que searx almacena na túa "
+"computadora."
+
+#: ../searx/templates/oscar/preferences.html:416
+msgid "With that list, you can assess searx transparency."
+msgstr "Con esta lista podes comprobar a transparencia de searx."
+
+#: ../searx/templates/oscar/preferences.html:421
+msgid "Cookie name"
+msgstr "Nome do testemuño"
+
+#: ../searx/templates/oscar/preferences.html:422
+msgid "Value"
+msgstr "Valor"
+
+#: ../searx/templates/oscar/preferences.html:439
+msgid ""
+"These settings are stored in your cookies, this allows us not to store this "
+"data about you."
+msgstr ""
+"Estos axustes gárdanse en testemuños, esto permítenos non ter que gardar "
+"ningún dato sobre ti."
+
+#: ../searx/templates/oscar/preferences.html:440
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr ""
+"Estos testemuños son para a túa conveniencia, non utilizamos estos "
+"testemuños para rastrexarte."
+
+#: ../searx/templates/oscar/preferences.html:444
+msgid "Search URL of the currently saved preferences"
+msgstr "URL de busca dos axustes gardados actualmente."
+
+#: ../searx/templates/oscar/preferences.html:445
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr ""
+"Nota: establecer axustes personalizados na URL de busca pode reducir a túa "
+"privacidade ó filtrar datos ós sitios web dos resultados."
+
+#: ../searx/templates/oscar/preferences.html:452
+msgid "save"
+msgstr "gardar"
+
+#: ../searx/templates/oscar/preferences.html:454
+msgid "back"
+msgstr "atrás"
+
+#: ../searx/templates/oscar/preferences.html:457
+msgid "Reset defaults"
+msgstr "Restablecer"
+
+#: ../searx/templates/oscar/results.html:39
+msgid "Engines cannot retrieve results"
+msgstr "Os buscadores non obtiveron resultados"
+
+#: ../searx/templates/oscar/results.html:55
+msgid "Suggestions"
+msgstr "Suxestións"
+
+#: ../searx/templates/oscar/results.html:77
+msgid "Links"
+msgstr "Ligazóns"
+
+#: ../searx/templates/oscar/results.html:82
+msgid "Search URL"
+msgstr "Busca URL"
+
+#: ../searx/templates/oscar/results.html:88
+msgid "Download results"
+msgstr "Descargar resultados"
+
+#: ../searx/templates/oscar/results.html:100
+msgid "RSS subscription"
+msgstr "Subscrición RSS"
+
+#: ../searx/templates/oscar/results.html:107
+msgid "Search results"
+msgstr "Resultados da busca"
+
+#: ../searx/templates/oscar/results.html:112
+msgid "Try searching for:"
+msgstr "Intenta buscar:"
+
+#: ../searx/templates/oscar/results.html:159
+msgid "No Description provided by the developer"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:166
+#, fuzzy
+#| msgid "Issue tracker"
+msgid "Issue Tracker"
+msgstr "Seguimento de problemas"
+
+#: ../searx/templates/oscar/results.html:175
+msgid ""
+"Source\n"
+"                                                        Code"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:183
+msgid "Website"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:253
+#: ../searx/templates/oscar/results.html:283
+#: ../searx/templates/oscar/results.html:296
+msgid "Missing Text"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:333
+#: ../searx/templates/oscar/results.html:367
+msgid "next page"
+msgstr "páxina seguinte"
+
+#: ../searx/templates/oscar/results.html:343
+#: ../searx/templates/oscar/results.html:357
+msgid "previous page"
+msgstr "páxina anterior"
+
+#: ../searx/templates/oscar/search.html:6
+#: ../searx/templates/oscar/search_full.html:9
+msgid "Search for..."
+msgstr "Buscar por..."
+
+#: ../searx/templates/oscar/search.html:8
+#: ../searx/templates/oscar/search_full.html:11
+msgid "Start search"
+msgstr "Iniciar busca"
+
+#: ../searx/templates/oscar/search.html:9
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear search"
+msgstr "Baleirar busca"
+
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear"
+msgstr "Baleirar"
+
+#: ../searx/templates/oscar/stats.html:2
+msgid "stats"
+msgstr "estatísticas"
+
+#: ../searx/templates/oscar/stats.html:5
+msgid "Engine stats"
+msgstr "Estatísticas do buscador"
+
+#: ../searx/templates/oscar/time-range.html:5
+msgid "Anytime"
+msgstr "Calquer momento"
+
+#: ../searx/templates/oscar/time-range.html:8
+msgid "Last day"
+msgstr "Último día"
+
+#: ../searx/templates/oscar/time-range.html:11
+msgid "Last week"
+msgstr "Última semana"
+
+#: ../searx/templates/oscar/time-range.html:14
+msgid "Last month"
+msgstr "Último mes"
+
+#: ../searx/templates/oscar/time-range.html:17
+msgid "Last year"
+msgstr "Último ano"
+
+#: ../searx/templates/oscar/messages/first_time.html:6
+#: ../searx/templates/oscar/messages/no_data_available.html:3
+msgid "Heads up!"
+msgstr "Heads up!"
+
+#: ../searx/templates/oscar/messages/first_time.html:7
+msgid "It look like you are using searx first time."
+msgstr "Semella que é a primeira vez que utilizas searx."
+
+#: ../searx/templates/oscar/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "Información!"
+
+#: ../searx/templates/oscar/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr "actualmente non hai testemuños establecidos."
+
+#: ../searx/templates/oscar/messages/no_data_available.html:4
+msgid "There is currently no data available. "
+msgstr "Non hai datos dispoñibles."
+
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Engines cannot retrieve results."
+msgstr "Os buscadores non poden obter resultados."
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Please, try again later or find another searx instance."
+msgstr "Por favor, inténtao máis tarde ou busca outra instancia de searx."
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Public instances"
+msgstr "Instancias públicas"
+
+#: ../searx/templates/oscar/messages/no_results.html:14
+msgid "Sorry!"
+msgstr "Lamentámolo!"
+
+#: ../searx/templates/oscar/messages/no_results.html:15
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr ""
+"non atopamos ningún resultado. Por favor, realiza outra consulta ou busca en "
+"máis categorías."
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:7
+msgid "Well done!"
+msgstr "Ben feito!"
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:8
+msgid "Settings saved successfully."
+msgstr "Gardáronse correctamente os Axustes."
+
+#: ../searx/templates/oscar/messages/unknow_error.html:7
+msgid "Oh snap!"
+msgstr "Vaia!"
+
+#: ../searx/templates/oscar/messages/unknow_error.html:8
+msgid "Something went wrong."
+msgstr "Algo fallou."
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+#: ../searx/templates/oscar/result_templates/files.html:10
+msgid "show media"
+msgstr "mostrar medios"
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+msgid "hide media"
+msgstr "agochar medios"
+
+#: ../searx/templates/oscar/result_templates/files.html:33
+#: ../searx/templates/oscar/result_templates/videos.html:19
+msgid "Author"
+msgstr "Autora"
+
+#: ../searx/templates/oscar/result_templates/files.html:35
+#, fuzzy
+#| msgid "Engine name"
+msgid "Filename"
+msgstr "Nome do motor"
+
+#: ../searx/templates/oscar/result_templates/files.html:37
+#: ../searx/templates/oscar/result_templates/torrent.html:7
+msgid "Filesize"
+msgstr "Tamaño do ficheiro"
+
+#: ../searx/templates/oscar/result_templates/files.html:38
+#: ../searx/templates/oscar/result_templates/torrent.html:9
+msgid "Bytes"
+msgstr "Bytes"
+
+#: ../searx/templates/oscar/result_templates/files.html:39
+#: ../searx/templates/oscar/result_templates/torrent.html:10
+msgid "kiB"
+msgstr "kiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:40
+#: ../searx/templates/oscar/result_templates/torrent.html:11
+msgid "MiB"
+msgstr "MiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:41
+#: ../searx/templates/oscar/result_templates/torrent.html:12
+msgid "GiB"
+msgstr "GiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:42
+#: ../searx/templates/oscar/result_templates/torrent.html:13
+msgid "TiB"
+msgstr "TiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:46
+msgid "Date"
+msgstr ""
+
+#: ../searx/templates/oscar/result_templates/files.html:48
+msgid "Type"
+msgstr ""
+
+#: ../searx/templates/oscar/result_templates/images.html:27
+msgid "Get image"
+msgstr "Obter imaxe"
+
+#: ../searx/templates/oscar/result_templates/images.html:30
+msgid "View source"
+msgstr "Ver fonte"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "show map"
+msgstr "mostrar mapa"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "hide map"
+msgstr "agochar mapa"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "show details"
+msgstr "mostrar detalles"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "hide details"
+msgstr "agochar detalles"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Seeder"
+msgstr "Sementadora"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Leecher"
+msgstr "Cliente"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:15
+msgid "Number of Files"
+msgstr "Número de ficheiros"
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "show video"
+msgstr "mostrar vídeo"
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "hide video"
+msgstr "agochar vídeo"
+
+#: ../searx/templates/oscar/result_templates/videos.html:20
+msgid "Length"
+msgstr "Lonxitude"
+
+#~ msgid "CAPTCHA required"
+#~ msgstr "CAPTCHA requerido"
+
+#~ msgid ""
+#~ "Results are opened in the same window by default. This plugin overwrites "
+#~ "the default behaviour to open links on new tabs/windows. (JavaScript "
+#~ "required)"
+#~ msgstr ""
+#~ "Por omisión, os resultados ábrense na mesma lapela. Este engadido "
+#~ "sobreescribe o comportamento por omisión para abrir as ligazóns en novas "
+#~ "lapelas/ventás. (Require JavaScript)"
+
+#~ msgid "Color"
+#~ msgstr "Cor"
+
+#~ msgid "Blue (default)"
+#~ msgstr "Azul (por omisión)"
+
+#~ msgid "Violet"
+#~ msgstr "Violeta"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Cyan"
+#~ msgstr "Cian"
+
+#~ msgid "Orange"
+#~ msgstr "Laranxa"
+
+#~ msgid "Red"
+#~ msgstr "Vermello"
+
+#~ msgid "Currently used search engines"
+#~ msgstr "Motores de busca utilizados actualmente"
+
+#~ msgid "Category"
+#~ msgstr "Categoría"
+
+#~ msgid "Block"
+#~ msgstr "Bloquear"
+
+#~ msgid "Answers"
+#~ msgstr "Respostas"
+
+#~ msgid "original context"
+#~ msgstr "contexto orixinal"
+
+#~ msgid "Click on the magnifier to perform search"
+#~ msgstr "Preme na lupa para realizar a busca"
+
+#~ msgid "Powered by"
+#~ msgstr "Proporcionado por"
+
+#~ msgid "Keywords"
+#~ msgstr "Palabras chave"
+
+#~ msgid "Load more..."
+#~ msgstr "Cargar máis..."
+
+#~ msgid "Supports selected language"
+#~ msgstr "Soporta o idioma seleccionado"
+
+#~ msgid "User interface"
+#~ msgstr "Interface de usuaria"
+
+#~ msgid "Privacy"
+#~ msgstr "Privacidade"
+
+#~ msgid "Loading..."
+#~ msgstr "Cargando..."

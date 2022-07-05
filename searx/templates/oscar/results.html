@@ -1,0 +1,378 @@
+{% extends "oscar/base.html" %}
+{% macro search_form_attrs(pageno) -%}
+    {%- for category in selected_categories -%}<input type="hidden" name="category_{{ category }}" value="1"/>
+    {%- endfor -%}
+    <input type="hidden" name="q" value="{{ q|e }}"/>{{- "" -}}
+    <input type="hidden" name="pageno" value="{{ pageno }}"/>{{- "" -}}
+    <input type="hidden" name="time_range" value="{{ time_range }}"/>{{- "" -}}
+    <input type="hidden" name="language" value="{{ current_language }}"/>{{- "" -}}
+    {% if timeout_limit %}<input type="hidden" name="timeout_limit" value="{{ timeout_limit|e }}"/>{% endif -%}
+{%- endmacro %}
+{% macro engine_data_form(engine_data) -%}
+    {% for engine_name, kv_data in engine_data.items() %}
+        {% for k, v in kv_data.items() %}
+            <input type="hidden" name="engine_data-{{ engine_name }}-{{ k|e }}" value="{{ v|e }}"/>
+        {% endfor %}
+    {% endfor %}
+{%- endmacro %}
+{%- macro search_url() %}{{ url_for('search', _external=True) }}?q={{ q|urlencode }}{% if selected_categories %}&amp;
+    categories={{ selected_categories|join(",") | replace(' ','+') }}{% endif %}{% if pageno > 1 %}&amp;
+    pageno={{ pageno }}{% endif %}{% if time_range %}&amp;
+    time_range={{ time_range }}{% endif %}{% if current_language != 'all' %}&amp;language={{ current_language }}
+{% endif %}{% endmacro -%}
+
+{% block title %}{{ q|e }} - {% endblock %}
+{% block meta %}{{ "    " }}
+    <link rel="alternate" type="application/rss+xml" title="Searx search: {{ q|e }}"
+          href="{{ search_url() }}&amp;format=rss">{% endblock %}
+{% block content %}
+    {% include 'oscar/search.html' %}
+
+    <div class="row">
+        <div class="col-sm-4 col-sm-push-8" id="sidebar_results">
+            {% if number_of_results != '0' -%}
+                <p><small>{{ _('Number of results') }}: {{ number_of_results }}</small></p>
+            {%- endif %}
+
+            {% if unresponsive_engines and results|length >= 1 -%}
+                <div class="alert alert-danger fade in" role="alert">
+                    <p>{{ _('Engines cannot retrieve results') }}:</p>
+                    {%- for engine_name, error_type in unresponsive_engines -%}
+                        {{- engine_name }} ({{ error_type }}){% if not loop.last %}, {% endif %}{{- "" -}}
+                    {%- endfor -%}
+                </div>
+            {%- endif %}
+
+            {% if infoboxes -%}
+                {% for infobox in infoboxes %}
+                    {% include 'oscar/infobox.html' %}{{- "\n\n" -}}
+                {% endfor %}
+            {%- endif %}
+
+            {% if suggestions %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">{{ _('Suggestions') }}</h4>
+                    </div>
+                    <div class="panel-body">
+                        {% for suggestion in suggestions %}
+                            <form method="{{ method or 'POST' }}" action="{{ url_for('search') }}" role="navigation"
+                                  class="form-inline pull-{% if rtl %}right{% else %}left{% endif %} suggestion_item">
+                                {% if current_language != 'all' %}
+                                    <input type="hidden" name="language" value="{{ current_language }}">
+                                {% endif %}
+                                {% if time_range %}
+                                    <input type="hidden" name="time_range" value="{{ time_range }}">
+                                {% endif %}
+                                <input type="hidden" name="q" value="{{ suggestion.url }}">
+                                <button type="submit" class="btn btn-default btn-xs">{{ suggestion.title }}</button>
+                            </form>
+                        {% endfor %}
+                    </div>
+                </div>
+            {%- endif %}
+
+            <div class="panel panel-default hidden-xs">
+                <div class="panel-heading">{{- "" -}}
+                    <h4 class="panel-title">{{ _('Links') }}</h4>{{- "" -}}
+                </div>
+                <div class="panel-body">
+                    <form role="form">{{- "" -}}
+                        <div class="form-group">{{- "" -}}
+                            <label for="search_url">{{ _('Search URL') }}</label>{{- "" -}}
+                            <input id="search_url" type="url" class="form-control select-all-on-click cursor-text"
+                                   name="search_url" value="{{ search_url() }}" readonly>{{- "" -}}
+                        </div>
+                        {{- "" -}}
+                    </form>
+                    <label>{{ _('Download results') }}</label>
+                    <div class="clearfix"></div>
+                    {% for output_type in ('csv', 'json', 'rss') %}
+                        <form method="{{ method or 'POST' }}" action="{{ url_for('search') }}"
+                              class="form-inline pull-{% if rtl %}right{% else %}left{% endif %} result_download">
+                            {{- search_form_attrs(pageno) -}}
+                            <input type="hidden" name="format" value="{{ output_type }}">{{- "" -}}
+                            <button type="submit" class="btn btn-default">{{ output_type }}</button>
+                            {{- "" -}}
+                        </form>
+                    {% endfor %}
+                    <div class="clearfix"></div>
+                    <br/><label><a href="{{ search_url() }}&amp;format=rss">{{ _('RSS subscription') }}</a></label>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div><!-- /#sidebar_results -->
+
+        <div class="col-sm-8 col-sm-pull-4" id="main_results">
+            <h1 class="sr-only">{{ _('Search results') }}</h1>
+
+            {% if corrections -%}
+                <div class="result">
+                    <div class="clearfix">
+                        <span class="result_header text-muted form-inline pull-left suggestion_item">{{ _('Try searching for:') }}</span>
+                        {% for correction in corrections -%}
+                            <form method="{{ method or 'POST' }}" action="{{ url_for('search') }}" role="navigation"
+                                  class="form-inline pull-left suggestion_item">{{- "" -}}
+                                {% if current_language != 'all' %}
+                                    <input type="hidden" name="language" value="{{ current_language }}">
+                                {% endif %}
+                                {% if time_range %}
+                                    <input type="hidden" name="time_range" value="{{ time_range }}">
+                                {% endif %}
+                                <input type="hidden" name="q" value="{{ correction.url }}">{{- "" -}}
+                                <button type="submit" class="btn btn-default btn-xs">{{ correction.title }}</button>
+                                {{- "" -}}
+                            </form>
+                        {% endfor %}
+                    </div>
+                </div>
+            {%- endif %}
+
+            {% if answers -%}
+                {%- for answer in answers.values() %}
+
+                    <div class="result well">
+                        {% if answer.author %}
+                            <button title="Answerer Info" type="button" class="btn btn-info btn-xs pull-right"
+                                    data-toggle="modal"
+                                    data-target="#answerer-modal-{{ loop.index }}">
+                                <i class="fas fa-fighter-jet"></i>
+                            </button>
+
+
+                            <!-- The modal -->
+                            <div class="modal fade" id="answerer-modal-{{ loop.index }}" tabindex="-1" role="dialog"
+                                 aria-labelledby="modalLabelSmall" aria-hidden="true">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="modal-title" id="modalLabelSmall"><i title="Answerer"
+                                                    class="fas fa-fighter-jet"></i> {{ answer.info.name }}</h4>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <p>
+                                                {{ answer.info.description|default(_('No Description provided by the developer')) }}
+                                            </p>
+
+                                            {% if answer.info.bugs and answer.info.bugs.url %}
+                                                <p>
+                                                    <small>
+                                                        <i class="fas fa-bug"></i> <a target="_blank"
+                                                                                      href="{{ answer.info.bugs.url }}">{{ answer.info.bugs.text|default(_('Issue Tracker')) }}</a></small>
+
+
+                                                </p>
+                                            {% endif %}
+                                            {% if answer.info.repository %}
+                                                <p>
+                                                    <small>
+                                                        <i class="fas fa-code-branch"></i> <a target="_blank"
+                                                                                              href="{{ answer.info.repository|replace("{commit}", searx_commit)|replace("{repository}", brand.GIT_URL) }}">{{ _('Source
+                                                        Code') }}</a></small>
+                                                </p>
+                                            {% endif %}
+                                            {% if answer.info.website %}
+                                                <p>
+                                                    <small>
+                                                        <i class="fas fa-globe"></i> <a target="_blank"
+                                                                                              href="{{ answer.info.website }}">{{ _('Website') }}</a></small>
+                                                </p>
+                                            {% endif %}
+                                            <hr>
+                                            {% if answer.author is sequence and answer.author is not string and answer.author is not mapping %}
+                                                {% for Developer in answer.author %}
+                                                    <p>
+                                                        {% if Developer.url %}
+                                                            <p>{{ Developer.title|default(_('Developer')) }}: <a
+                                                                    target="_blank"
+                                                                    href="{{ Developer.url }}">{{ Developer.name }}</a>
+                                                            </p>
+                                                        {% else %}
+                                                            <p>{{ Developer.title|default(_('Developer')) }}:
+                                                                {{ Developer.name }}</p>
+                                                        {% endif %}
+                                                    </p>
+                                                {% endfor %}
+                                            {% else %}
+                                                <p>
+                                                    {% if answer.author.url %}
+                                                        <p>{{ answer.author.title|default(_('Developer')) }}: <a
+                                                                target="_blank"
+                                                                href="{{ answer.author.url }}">{{ answer.author.name }}</a>
+                                                        </p>
+                                                    {% else %}
+                                                        <p>{{ answer.author.title|default(_('Developer')) }}:
+                                                            {{ answer.author.name }}</p>
+                                                    {% endif %}
+                                                </p>
+                                            {% endif %}
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        {% endif %}
+
+
+                        {% if answer.image and answer.image.src %}
+                            {% if answer.image.align == 'right' or answer.image.align == 'left' or not answer.image.align %}
+                                <img src="{{ answer.image.src }}" class="pull-{{ answer.image.align|default('left') }}">
+                                {% if answer.image.align == 'left' %}
+                                    <br><br>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+
+                        {% if answer.link %}
+                            {% if answer.link.url %}
+                                <small class="pull-right">
+                                    {% if answer.link.icon %}
+                                        <i class="fas fa-{{ answer.link.icon }}"></i>
+                                    {% endif %}
+                                    <a
+                                            target="{{ answer.link.target|default('_blank') }}"
+                                            href="{{ answer.link.url }}">{{ answer.link.text|default('Missing Text') }}</a></small>
+                            {% endif %}
+                        {% endif %}
+                        {% if answer.button %}
+                            {% if not answer.button.position or answer.button.position == 'top-right' %}
+                                {% if answer.button.url %}
+                                    <a href="{{ answer.button.url }}"
+                                       target="{{ answer.button.target|default('_blank') }}"
+                                       class="pull-right btn btn-{{ answer.button.color|default('primary') }}">
+                                        {% if answer.button.icon %}
+                                            <i class="fas fa-{{ answer.button.icon }}"></i>
+                                        {% endif %}
+                                        {{ answer.button.text|default(_('Missing Text')) }}
+                                    </a>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+
+                        {% if answer.url %}
+                            {% if answer.safe %}
+                                <a href="{{ answer.url }}">{{ answer.answer|safe }}</a>
+                            {% else %}
+                                <a href="{{ answer.url }}">{{ answer.answer }}</a>
+                            {% endif %}
+                        {% else %}
+                            {% if answer.safe %}
+                                <div>{{ answer.answer|safe }}</div>
+                            {% else %}
+                                <div>{{ answer.answer }}</div>
+                            {% endif %}
+                        {% endif %}
+
+
+                        {% if answer.button %}
+                            {% if answer.button.position == 'bottom-right' %}
+                                {% if answer.button.url %}
+                                    <a href="{{ answer.button.url }}"
+                                       target="{{ answer.button.target|default('_blank') }}"
+                                       class="pull-right btn btn-{{ answer.button.color|default('primary') }}">
+                                        {% if answer.button.icon %}
+                                            <i class="fas fa-{{ answer.button.icon }}"></i>
+                                        {% endif %}
+                                        {{ answer.button.text|default(_('Missing Text')) }}
+                                    </a>
+                                {% endif %}
+                            {% endif %}
+                            {% if answer.button.position == 'bottom' %}
+                                {% if answer.button.url %}
+                                    <br><br>
+                                    <a target="{{ answer.button.target|default('_blank') }}"
+                                       href="{{ answer.button.url }}"
+                                       class="btn btn-{{ answer.button.color|default('primary') }} btn-block">
+                                        {% if answer.button.icon %}
+                                            <i class="fas fa-{{ answer.button.icon }}"></i>
+                                        {% endif %}
+                                        {{ answer.button.text|default(_('Missing Text')) }}
+                                    </a>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                {%- endfor %}
+            {%- endif %}
+
+            {% for result in results -%}
+                <div class="result {% if result['template'] %}result-
+
+
+                    {{ result.template|replace('.html', '') }}{% else %}result-default{% endif %}{% for e in result.engines %} {{ e }}{% endfor %}">
+                    {%- set index = loop.index -%}
+                    {%- if result.template -%}
+                        {% include get_result_template('oscar', result['template']) %}
+                    {%- else -%}
+                        {% include 'oscar/result_templates/default.html' %}
+                    {%- endif -%}
+                </div>
+            {% endfor %}
+
+            {% if not results and not answers -%}
+                {% include 'oscar/messages/no_results.html' %}
+            {% endif %}
+
+            <div class="clearfix"></div>
+
+            {% if paging -%}
+                {% if rtl %}
+                    <div id="pagination">
+                        <div class="pull-left">{{- "" -}}
+                            <form method="{{ method or 'POST' }}" action="{{ url_for('search') }}" class="pull-left">
+                                {{- search_form_attrs(pageno+1) -}}
+                                {{- engine_data_form(engine_data) -}}
+                                <button type="submit" class="btn btn-default"><span
+                                        class="glyphicon glyphicon-backward"></span> {{ _('next page') }}</button>
+                                {{- "" -}}
+                            </form>
+                            {{- "" -}}
+                        </div>
+                        <div class="pull-right">{{- "" -}}
+                            <form method="{{ method or 'POST' }}" action="{{ url_for('search') }}" class="pull-left">
+                                {{- search_form_attrs(pageno-1) -}}
+                                {{- engine_data_form(engine_data) -}}
+                                <button type="submit" class="btn btn-default" {% if pageno == 1 %}disabled{% endif %}>
+                                    <span class="glyphicon glyphicon-forward"></span> {{ _('previous page') }}</button>
+                                {{- "" -}}
+                            </form>
+                            {{- "" -}}
+                        </div>
+                    </div><!-- /#pagination -->
+                    <div class="clearfix"></div>
+                {% else %}
+                    <div id="pagination">
+                        <div class="pull-left">{{- "" -}}
+                            <form method="{{ method or 'POST' }}" action="{{ url_for('search') }}" class="pull-left">
+                                {{- search_form_attrs(pageno-1) -}}
+                                {{- engine_data_form(engine_data) -}}
+                                <button type="submit" class="btn btn-default" {% if pageno == 1 %}disabled{% endif %}>
+                                    <span class="glyphicon glyphicon-backward"></span> {{ _('previous page') }}</button>
+                                {{- "" -}}
+                            </form>
+                            {{- "" -}}
+                        </div>
+                        <div class="pull-right">{{- "" -}}
+                            <form method="{{ method or 'POST' }}" action="{{ url_for('search') }}" class="pull-left">
+                                {{- search_form_attrs(pageno+1) -}}
+                                {{- engine_data_form(engine_data) -}}
+                                <button type="submit" class="btn btn-default"><span
+                                        class="glyphicon glyphicon-forward"></span> {{ _('next page') }}</button>
+                                {{- "" -}}
+                            </form>
+                            {{- "" -}}
+                        </div>
+                    </div><!-- /#pagination -->
+                    <div class="clearfix"></div>
+                {% endif %}
+            {% endif %}
+        </div><!-- /#main_results -->
+    </div>
+{% endblock %}

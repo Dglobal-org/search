@@ -1,0 +1,1101 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# dd721411 <dd721411@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-18 02:49+0200\n"
+"PO-Revision-Date: 2020-07-09 13:10+0000\n"
+"Last-Translator: dd721411 <dd721411@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/asciimoo/searx/language/"
+"vi/)\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../searx/webapp.py:164
+msgid "files"
+msgstr "các tập tin"
+
+#: ../searx/webapp.py:165
+msgid "general"
+msgstr "tổng quát"
+
+#: ../searx/webapp.py:166
+msgid "music"
+msgstr "âm nhạc"
+
+#: ../searx/webapp.py:167
+msgid "social media"
+msgstr "mạng xã hội"
+
+#: ../searx/webapp.py:168
+msgid "images"
+msgstr "hình ảnh"
+
+#: ../searx/webapp.py:169
+msgid "videos"
+msgstr "phim"
+
+#: ../searx/webapp.py:170
+msgid "it"
+msgstr "CNTT"
+
+#: ../searx/webapp.py:171
+msgid "news"
+msgstr "tin tức"
+
+#: ../searx/webapp.py:172
+msgid "map"
+msgstr "bản đồ"
+
+#: ../searx/webapp.py:173
+msgid "onions"
+msgstr ""
+
+#: ../searx/webapp.py:174
+msgid "science"
+msgstr "khoa học"
+
+#: ../searx/webapp.py:375
+msgid "could not load data"
+msgstr ""
+
+#: ../searx/webapp.py:377
+msgid "No item found"
+msgstr "Không tìm thấy gì"
+
+#: ../searx/webapp.py:483 ../searx/webapp.py:848
+msgid "Invalid settings, please edit your preferences"
+msgstr "Cài đặt không hợp lệ, xin xem lại tuỳ chỉnh"
+
+#: ../searx/webapp.py:499
+msgid "Invalid settings"
+msgstr "Cài đặt không hợp lệ"
+
+#: ../searx/webapp.py:564 ../searx/webapp.py:629
+msgid "search error"
+msgstr "lỗi tìm kiếm"
+
+#: ../searx/webapp.py:672
+msgid "{minutes} minute(s) ago"
+msgstr "{minutes} phút() trước"
+
+#: ../searx/webapp.py:674
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "{hours} giờ(), {minutes} phút() trước"
+
+#: ../searx/answerers/statistics/answerer.py:54
+msgid "Statistics functions"
+msgstr "Các hàm thống kê"
+
+#: ../searx/answerers/statistics/answerer.py:55
+msgid "Compute {functions} of the arguments"
+msgstr "Tính toán {functions} của các đối số"
+
+#: ../searx/engines/__init__.py:251
+msgid "Engine time (sec)"
+msgstr "Thời gian trình tìm kiếm (giây)"
+
+#: ../searx/engines/__init__.py:255
+msgid "Page loads (sec)"
+msgstr "Tải trang (giây)"
+
+#: ../searx/engines/__init__.py:259 ../searx/templates/oscar/results.html:34
+msgid "Number of results"
+msgstr "Số lượng kết quả"
+
+#: ../searx/engines/__init__.py:263
+msgid "Scores"
+msgstr "Điểm số"
+
+#: ../searx/engines/__init__.py:267
+msgid "Scores per result"
+msgstr "Điểm số cho từng kết quả"
+
+#: ../searx/engines/__init__.py:271
+msgid "Errors"
+msgstr "Các lỗi"
+
+#: ../searx/engines/openstreetmap.py:49
+msgid "Get directions"
+msgstr ""
+
+#: ../searx/engines/pdbe.py:90
+msgid "{title} (OBSOLETE)"
+msgstr ""
+
+#: ../searx/engines/pdbe.py:97
+msgid "This entry has been superseded by"
+msgstr "Mục này đã được thay thế bởi"
+
+#: ../searx/engines/pubmed.py:78
+msgid "No abstract is available for this publication."
+msgstr "Không có bản tóm tắt nào cho ấn phẩm này."
+
+#: ../searx/plugins/better_answerer.py:9
+#, fuzzy
+#| msgid "Answerers"
+msgid "Better Answerers"
+msgstr "Trình trả lời nhanh"
+
+#: ../searx/plugins/better_answerer.py:10
+msgid "Module to improve the Answerer functionality in searx"
+msgstr ""
+
+#: ../searx/plugins/hostname_replace.py:7
+msgid "Hostname replace"
+msgstr ""
+
+#: ../searx/plugins/hostname_replace.py:8
+msgid "Rewrite result hostnames"
+msgstr ""
+
+#: ../searx/plugins/https_rewrite.py:29
+msgid "Rewrite HTTP links to HTTPS if possible"
+msgstr "Viết lại các liên kết HTTP thành HTTPS khi có thể"
+
+#: ../searx/plugins/infinite_scroll.py:3
+msgid "Infinite scroll"
+msgstr "Cuộn liên tục"
+
+#: ../searx/plugins/infinite_scroll.py:4
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr "Tự động tải trang kế tiếp khi cuộn đến cuối trang hiện tại"
+
+#: ../searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr "Viết lại DOI Truy Cập Miễn Phí"
+
+#: ../searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications when "
+"available"
+msgstr ""
+"Tránh việc trả phí bằng cách chuyển hướng đến các phiên bản truy cập miễn "
+"phí của ấn phẩm khi có thể"
+
+#: ../searx/plugins/search_on_category_select.py:18
+msgid "Search on category select"
+msgstr "Tìm kiếm khi chọn danh mục đơn"
+
+#: ../searx/plugins/search_on_category_select.py:19
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+"Thực thi tìm kiếm ngay khi chọn một danh mục. Tắt đi để chọn nhiều danh mục. "
+"(yêu cầu JavaScript)"
+
+#: ../searx/plugins/self_info.py:19
+#, fuzzy
+#| msgid "Information!"
+msgid "Self Informations"
+msgstr "Thông tin!"
+
+#: ../searx/plugins/self_info.py:20
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr ""
+"Hiện IP của bạn khi gõ \"ip\" và hiện user agent khi gõ \"user agent\"."
+
+#: ../searx/plugins/tracker_url_remover.py:27
+msgid "Tracker URL remover"
+msgstr "Trình loại bỏ URL theo dõi"
+
+#: ../searx/plugins/tracker_url_remover.py:28
+msgid "Remove trackers arguments from the returned URL"
+msgstr "Loại bỏ các đối số theo dõi từ URL trả về"
+
+#: ../searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr "Các phím tắt Vim-like"
+
+#: ../searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). Press "
+"\"h\" key on main or result page to get help."
+msgstr ""
+"Điều hướng các kết quả tìm kiếm với các phím tắt Vim-like (yêu cầu "
+"JavaScript). Nhấn phím \"h\" trên trang chính hoặc trang kết quả để xem trợ "
+"giúp."
+
+#: ../searx/plugins/answerer/alternative/answerer.py:24
+msgid "The ToS;DR Team"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:85
+msgid "Privacy Alternative"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:86
+msgid "Get privacy friendly alternatives from popular services."
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:90
+msgid "Report a bug to the maintainer"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/templates/answer.html:1
+msgid "Privacy friendly alternatives to {service}"
+msgstr ""
+
+#: ../searx/plugins/answerer/ascii/answerer.py:41
+#, fuzzy
+#| msgid "Shortcut"
+msgid "Ascii Shortcuts"
+msgstr "Lối tắt"
+
+#: ../searx/plugins/answerer/ascii/answerer.py:42
+msgid "Does some Ascii Stuff"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:96
+msgid "Bitcoin Index"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:97
+msgid "Get a the bitcoin index via currency or by default via USD, EUR and GBP"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/templates/all.html:1
+#: ../searx/plugins/answerer/bitcoin/templates/currency.html:1
+msgid "The current Bitcoin index is"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:79
+msgid "Cheatsheet Index"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:80
+msgid "Cheatsheet module to load some awesome modules found around the web."
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:1
+msgid "Guitar Cheatsheet"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:24
+msgid "Cheatsheet Images by {source}"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:82
+msgid "{service} has a Privacy {grade} on ToS;DR"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:116
+msgid "ToS;DR Grade"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:117
+msgid "Get a grade from ToS;DR using the ToS;DR API"
+msgstr ""
+
+#: ../searx/plugins/answerer/hash/answerer.py:69
+msgid "Hash Generator"
+msgstr ""
+
+#: ../searx/plugins/answerer/hash/answerer.py:70
+msgid "Generate md4, md5, sha1, sha256 and sha512 hashes"
+msgstr ""
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:64
+msgid "Leetspeak Answerer"
+msgstr ""
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:65
+msgid "L 3 3 '][' 5 |D 3 /-\\ |< I 5 C 0 0 |_"
+msgstr ""
+
+#: ../searx/plugins/answerer/nato/answerer.py:66
+msgid "Nato Converter"
+msgstr ""
+
+#: ../searx/plugins/answerer/nato/answerer.py:67
+msgid "Converts words into the nato phonetic alphabet"
+msgstr ""
+
+#: ../searx/plugins/answerer/onion/answerer.py:40
+msgid "Onion Notice"
+msgstr ""
+
+#: ../searx/plugins/answerer/onion/answerer.py:41
+msgid "Give a notice if an onion address has been queried"
+msgstr ""
+
+#: ../searx/plugins/answerer/random/answerer.py:94
+msgid "Random value generator"
+msgstr "Trình tạo giá trị ngẫu nhiên"
+
+#: ../searx/plugins/answerer/random/answerer.py:95
+msgid "Generate different random values"
+msgstr "Tạo các giá trị ngẫu nhiên khác nhau"
+
+#: ../searx/templates/oscar/404.html:4
+msgid "Page not found"
+msgstr "Không tìm thấy trang"
+
+#: ../searx/templates/oscar/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "Đi đến %(search_page)s."
+
+#: ../searx/templates/oscar/404.html:6
+msgid "search page"
+msgstr "tìm kiếm trang"
+
+#: ../searx/templates/oscar/about.html:2 ../searx/templates/oscar/navbar.html:6
+msgid "about"
+msgstr "thông tin về"
+
+#: ../searx/templates/oscar/advanced.html:4
+msgid "Advanced settings"
+msgstr "Cài đặt nâng cao"
+
+#: ../searx/templates/oscar/base.html:77
+#: ../searx/templates/oscar/messages/first_time.html:4
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:5
+#: ../searx/templates/oscar/messages/unknow_error.html:5
+msgid "Close"
+msgstr "Đóng"
+
+#: ../searx/templates/oscar/base.html:79
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Error!"
+msgstr "Lỗi!"
+
+#: ../searx/templates/oscar/base.html:107
+msgid "Powered by {searx} and forked by {tosdr}"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:108
+msgid "{version} on commit {hash}"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:109
+msgid "a privacy-respecting, hackable metasearch engine"
+msgstr "một trình tìm kiếm đa nguồn, dễ tuỳ biến và tôn trọng quyền riêng tư"
+
+#: ../searx/templates/oscar/base.html:110
+msgid "Source code"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:111
+msgid "Issue tracker"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:113
+msgid "Contact instance maintainer"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:115
+msgid "Translate ToS;DR Search"
+msgstr ""
+
+#: ../searx/templates/oscar/languages.html:2
+msgid "Language"
+msgstr ""
+
+#: ../searx/templates/oscar/languages.html:4
+msgid "Default language"
+msgstr "Ngôn ngữ mặc định"
+
+#: ../searx/templates/oscar/macros.html:23
+msgid "magnet link"
+msgstr "liên kết magnet"
+
+#: ../searx/templates/oscar/macros.html:24
+msgid "torrent file"
+msgstr "tập tin torrent"
+
+#: ../searx/templates/oscar/macros.html:36
+#: ../searx/templates/oscar/macros.html:38
+#: ../searx/templates/oscar/macros.html:72
+#: ../searx/templates/oscar/macros.html:74
+msgid "cached"
+msgstr "đã lưu cache"
+
+#: ../searx/templates/oscar/macros.html:42
+#: ../searx/templates/oscar/macros.html:58
+#: ../searx/templates/oscar/macros.html:78
+#: ../searx/templates/oscar/macros.html:92
+msgid "proxied"
+msgstr "đã proxy"
+
+#: ../searx/templates/oscar/macros.html:132
+#: ../searx/templates/oscar/preferences.html:252
+#: ../searx/templates/oscar/preferences.html:269
+msgid "Allow"
+msgstr "Cho phép"
+
+#: ../searx/templates/oscar/macros.html:139
+msgid "supported"
+msgstr "có hỗ trợ"
+
+#: ../searx/templates/oscar/macros.html:143
+msgid "not supported"
+msgstr "không hỗ trợ"
+
+#: ../searx/templates/oscar/navbar.html:7
+#: ../searx/templates/oscar/preferences.html:16
+msgid "preferences"
+msgstr "tuỳ chỉnh"
+
+#: ../searx/templates/oscar/preferences.html:12
+msgid "No HTTPS"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:21
+msgid "Preferences"
+msgstr "Tuỳ chỉnh"
+
+#: ../searx/templates/oscar/preferences.html:26
+#: ../searx/templates/oscar/preferences.html:36
+msgid "General"
+msgstr "Tổng quát"
+
+#: ../searx/templates/oscar/preferences.html:27
+#: ../searx/templates/oscar/preferences.html:226
+msgid "Engines"
+msgstr "Các trình tìm kiếm"
+
+#: ../searx/templates/oscar/preferences.html:28
+#: ../searx/templates/oscar/preferences.html:329
+msgid "Plugins"
+msgstr "Các phần mở rộng"
+
+#: ../searx/templates/oscar/preferences.html:30
+#: ../searx/templates/oscar/preferences.html:359
+msgid "Answerers"
+msgstr "Trình trả lời nhanh"
+
+#: ../searx/templates/oscar/preferences.html:31
+#: ../searx/templates/oscar/preferences.html:412
+msgid "Cookies"
+msgstr "Các cookie"
+
+#: ../searx/templates/oscar/preferences.html:49
+#: ../searx/templates/oscar/preferences.html:52
+msgid "Default categories"
+msgstr "Các danh mục mặc định"
+
+#: ../searx/templates/oscar/preferences.html:60
+msgid "Search language"
+msgstr "Ngôn ngữ tìm kiếm"
+
+#: ../searx/templates/oscar/preferences.html:61
+msgid "What language do you prefer for search?"
+msgstr "Bạn muốn tìm kiếm bằng ngôn ngữ nào?"
+
+#: ../searx/templates/oscar/preferences.html:68
+msgid "Interface language"
+msgstr "Ngôn ngữ giao diện"
+
+#: ../searx/templates/oscar/preferences.html:69
+msgid "Change the language of the layout"
+msgstr "Thay đổi ngôn ngữ giao diện"
+
+#: ../searx/templates/oscar/preferences.html:81
+msgid "Autocomplete"
+msgstr "Gợi ý tự động"
+
+#: ../searx/templates/oscar/preferences.html:82
+msgid "Find stuff as you type"
+msgstr "Tìm kiếm ngay khi gõ"
+
+#: ../searx/templates/oscar/preferences.html:96
+msgid "Image proxy"
+msgstr "Proxy hình ảnh"
+
+#: ../searx/templates/oscar/preferences.html:97
+msgid "Proxying image results through searx"
+msgstr "Proxy kết quả hình ảnh qua searx"
+
+#: ../searx/templates/oscar/preferences.html:102
+msgid "Enabled"
+msgstr "Đã "
+
+#: ../searx/templates/oscar/preferences.html:104
+msgid "Disabled"
+msgstr "Đã tắt"
+
+#: ../searx/templates/oscar/preferences.html:110
+msgid "Method"
+msgstr "Phương pháp"
+
+#: ../searx/templates/oscar/preferences.html:111
+msgid ""
+"Change how forms are submited, <a href=\"http://en.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">learn more "
+"about request methods</a>"
+msgstr ""
+"Thay đổi cách thức các cụm từ tìm kiếm được gửi đi, <a href=\"http://en."
+"wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\" rel="
+"\"external\">tìm hiểu thêm về các phương thức tìm kiếm</a>"
+
+#: ../searx/templates/oscar/preferences.html:123
+#: ../searx/templates/oscar/preferences.html:256
+#: ../searx/templates/oscar/preferences.html:264
+msgid "SafeSearch"
+msgstr "Tìm Kiếm An Toàn"
+
+#: ../searx/templates/oscar/preferences.html:124
+msgid "Filter content"
+msgstr "Lọc các nội dung"
+
+#: ../searx/templates/oscar/preferences.html:129
+msgid "Strict"
+msgstr "Nghiêm ngặt"
+
+#: ../searx/templates/oscar/preferences.html:131
+msgid "Moderate"
+msgstr "Vừa phải"
+
+#: ../searx/templates/oscar/preferences.html:133
+msgid "None"
+msgstr "Không"
+
+#: ../searx/templates/oscar/preferences.html:139
+msgid "Themes"
+msgstr "Nền"
+
+#: ../searx/templates/oscar/preferences.html:140
+msgid "Change searx layout"
+msgstr "Thay đổi giao diện searx"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Choose style for this theme"
+msgstr "Chọn phong cách cho nền này"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Style"
+msgstr "Phong cách"
+
+#: ../searx/templates/oscar/preferences.html:164
+msgid "Results on new tabs"
+msgstr "Hiện kết quả trên các thẻ mới"
+
+#: ../searx/templates/oscar/preferences.html:165
+msgid "Open result links on new browser tabs"
+msgstr "Mở kết quả trên những thẻ trình duyệt mới"
+
+#: ../searx/templates/oscar/preferences.html:170
+#: ../searx/templates/oscar/preferences.html:183
+msgid "On"
+msgstr "Bật"
+
+#: ../searx/templates/oscar/preferences.html:172
+#: ../searx/templates/oscar/preferences.html:185
+msgid "Off"
+msgstr "Tắt"
+
+#: ../searx/templates/oscar/preferences.html:177
+#, fuzzy
+#| msgid "Advanced settings"
+msgid "Show advanced settings"
+msgstr "Cài đặt nâng cao"
+
+#: ../searx/templates/oscar/preferences.html:178
+msgid "Show advanced settings panel in the home page by default"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:190
+msgid "Open Access DOI resolver"
+msgstr "Trình xử lý DOI Truy Cập Miễn Phí"
+
+#: ../searx/templates/oscar/preferences.html:191
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+"Chuyển hướng đến các phiên bản truy cập miễn phí của ấn phẩm khi có thể (yêu "
+"cầu phần mở rộng)"
+
+#: ../searx/templates/oscar/preferences.html:205
+msgid "Engine tokens"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:206
+msgid "Access tokens for private engines"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:235
+msgid "Allow all"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:237
+msgid "Disable all"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:253
+#: ../searx/templates/oscar/preferences.html:268
+msgid "Engine name"
+msgstr "Tên trình tìm kiếm"
+
+#: ../searx/templates/oscar/preferences.html:254
+#: ../searx/templates/oscar/preferences.html:267
+msgid "Shortcut"
+msgstr "Lối tắt"
+
+#: ../searx/templates/oscar/preferences.html:255
+#: ../searx/templates/oscar/preferences.html:266
+msgid "Selected language"
+msgstr "Ngôn ngữ được chọn"
+
+#: ../searx/templates/oscar/preferences.html:257
+#: ../searx/templates/oscar/preferences.html:263
+#: ../searx/templates/oscar/time-range.html:2
+msgid "Time range"
+msgstr "Khoảng thời gian"
+
+#: ../searx/templates/oscar/preferences.html:258
+#: ../searx/templates/oscar/preferences.html:262
+msgid "Avg. time"
+msgstr "Thời gian trung bình"
+
+#: ../searx/templates/oscar/preferences.html:259
+#: ../searx/templates/oscar/preferences.html:261
+msgid "Max time"
+msgstr "Thời gian tối đa"
+
+#: ../searx/templates/oscar/preferences.html:362
+msgid "This is the list of searx's instant answering modules."
+msgstr "Đây là danh sách các module trả lời nhanh của searx"
+
+#: ../searx/templates/oscar/preferences.html:366
+msgid "Name"
+msgstr "Tên"
+
+#: ../searx/templates/oscar/preferences.html:367
+#: ../searx/templates/oscar/results.html:191
+#: ../searx/templates/oscar/results.html:196
+#: ../searx/templates/oscar/results.html:204
+#: ../searx/templates/oscar/results.html:209
+msgid "Developer"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:368
+msgid "Description"
+msgstr "Mô tả"
+
+#: ../searx/templates/oscar/preferences.html:369
+msgid "Examples"
+msgstr "Các ví dụ"
+
+#: ../searx/templates/oscar/preferences.html:415
+msgid ""
+"This is the list of cookies and their values searx is storing on your "
+"computer."
+msgstr ""
+"Đây là danh sách các cookie và giá trị của chúng mà searx đang lưu trữ trên "
+"máy tính của bạn."
+
+#: ../searx/templates/oscar/preferences.html:416
+msgid "With that list, you can assess searx transparency."
+msgstr "Với danh sách này, bạn có thể đánh giá tính minh bạch của searx."
+
+#: ../searx/templates/oscar/preferences.html:421
+msgid "Cookie name"
+msgstr "Tên cookie"
+
+#: ../searx/templates/oscar/preferences.html:422
+msgid "Value"
+msgstr "Giá trị"
+
+#: ../searx/templates/oscar/preferences.html:439
+msgid ""
+"These settings are stored in your cookies, this allows us not to store this "
+"data about you."
+msgstr ""
+"Những cài đặt này được lưu trữ trong các cookie, điều này cho phép chúng tôi "
+"không phải lưu các dữ liệu về bạn."
+
+#: ../searx/templates/oscar/preferences.html:440
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr ""
+"Những cookie này chỉ phục vụ cho chính bạn, chúng tôi không sử dụng chúng để "
+"theo dõi bạn."
+
+#: ../searx/templates/oscar/preferences.html:444
+msgid "Search URL of the currently saved preferences"
+msgstr "URL tìm kiếm của tuỳ chỉnh được lưu hiện tại"
+
+#: ../searx/templates/oscar/preferences.html:445
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr ""
+"Ghi chú: việc định rõ cài đặt cá nhân trong URL tìm kiếm có thể làm suy giảm "
+"mức độ riêng tư vì nó chuyển dữ liệu đến các trang kết quả được nhấp chọn."
+
+#: ../searx/templates/oscar/preferences.html:452
+msgid "save"
+msgstr "lưu"
+
+#: ../searx/templates/oscar/preferences.html:454
+msgid "back"
+msgstr "trở về"
+
+#: ../searx/templates/oscar/preferences.html:457
+msgid "Reset defaults"
+msgstr "Đưa về mặc định"
+
+#: ../searx/templates/oscar/results.html:39
+msgid "Engines cannot retrieve results"
+msgstr "Các trình tìm kiếm không nhận được kết quả"
+
+#: ../searx/templates/oscar/results.html:55
+msgid "Suggestions"
+msgstr "Các gợi ý"
+
+#: ../searx/templates/oscar/results.html:77
+msgid "Links"
+msgstr "Các liên kết"
+
+#: ../searx/templates/oscar/results.html:82
+msgid "Search URL"
+msgstr "URL Tìm kiếm"
+
+#: ../searx/templates/oscar/results.html:88
+msgid "Download results"
+msgstr "Tải về các kết quả"
+
+#: ../searx/templates/oscar/results.html:100
+msgid "RSS subscription"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:107
+msgid "Search results"
+msgstr "Kết quả tìm kiếm"
+
+#: ../searx/templates/oscar/results.html:112
+msgid "Try searching for:"
+msgstr "Thử tìm kiếm:"
+
+#: ../searx/templates/oscar/results.html:159
+msgid "No Description provided by the developer"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:166
+msgid "Issue Tracker"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:175
+msgid ""
+"Source\n"
+"                                                        Code"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:183
+msgid "Website"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:253
+#: ../searx/templates/oscar/results.html:283
+#: ../searx/templates/oscar/results.html:296
+msgid "Missing Text"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:333
+#: ../searx/templates/oscar/results.html:367
+msgid "next page"
+msgstr "trang tiếp theo"
+
+#: ../searx/templates/oscar/results.html:343
+#: ../searx/templates/oscar/results.html:357
+msgid "previous page"
+msgstr "trang liền trước"
+
+#: ../searx/templates/oscar/search.html:6
+#: ../searx/templates/oscar/search_full.html:9
+msgid "Search for..."
+msgstr "Tìm kiếm về..."
+
+#: ../searx/templates/oscar/search.html:8
+#: ../searx/templates/oscar/search_full.html:11
+msgid "Start search"
+msgstr "Bắt đầu tìm kiếm"
+
+#: ../searx/templates/oscar/search.html:9
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear search"
+msgstr ""
+
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear"
+msgstr ""
+
+#: ../searx/templates/oscar/stats.html:2
+msgid "stats"
+msgstr "các thông số"
+
+#: ../searx/templates/oscar/stats.html:5
+msgid "Engine stats"
+msgstr "Các thông số về trình tìm kiếm"
+
+#: ../searx/templates/oscar/time-range.html:5
+msgid "Anytime"
+msgstr "Bất kỳ lúc nào"
+
+#: ../searx/templates/oscar/time-range.html:8
+msgid "Last day"
+msgstr "Hôm trước"
+
+#: ../searx/templates/oscar/time-range.html:11
+msgid "Last week"
+msgstr "Tuần trước"
+
+#: ../searx/templates/oscar/time-range.html:14
+msgid "Last month"
+msgstr "Tháng trước"
+
+#: ../searx/templates/oscar/time-range.html:17
+msgid "Last year"
+msgstr "Năm ngoái"
+
+#: ../searx/templates/oscar/messages/first_time.html:6
+#: ../searx/templates/oscar/messages/no_data_available.html:3
+msgid "Heads up!"
+msgstr "Cẩn thận!"
+
+#: ../searx/templates/oscar/messages/first_time.html:7
+msgid "It look like you are using searx first time."
+msgstr "Có vẻ như bạn mới sử dụng searx lần đầu."
+
+#: ../searx/templates/oscar/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "Thông tin!"
+
+#: ../searx/templates/oscar/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr "hiện tại không có cookie nào."
+
+#: ../searx/templates/oscar/messages/no_data_available.html:4
+msgid "There is currently no data available. "
+msgstr "Hiện không có dữ liệu nào."
+
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Engines cannot retrieve results."
+msgstr "Các trình tìm kiếm không nhận được kết quả."
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Please, try again later or find another searx instance."
+msgstr "Xin thử lại lần nữa hoặc tìm một server searx khác"
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Public instances"
+msgstr ""
+
+#: ../searx/templates/oscar/messages/no_results.html:14
+msgid "Sorry!"
+msgstr "Xin lỗi!"
+
+#: ../searx/templates/oscar/messages/no_results.html:15
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr ""
+"chúng tôi không tìm thấy kết quả nào. Xin gõ cụm từ khác hoặc tìm kiếm trong "
+"nhiều danh mục hơn."
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:7
+msgid "Well done!"
+msgstr "Tốt lắm!"
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:8
+msgid "Settings saved successfully."
+msgstr "Lưu cài đặt thành công."
+
+#: ../searx/templates/oscar/messages/unknow_error.html:7
+msgid "Oh snap!"
+msgstr "Quái quỷ thật!"
+
+#: ../searx/templates/oscar/messages/unknow_error.html:8
+msgid "Something went wrong."
+msgstr "Đã có sự cố."
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+#: ../searx/templates/oscar/result_templates/files.html:10
+msgid "show media"
+msgstr "hiện nội dung"
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+msgid "hide media"
+msgstr "ẩn nội dung"
+
+#: ../searx/templates/oscar/result_templates/files.html:33
+#: ../searx/templates/oscar/result_templates/videos.html:19
+msgid "Author"
+msgstr ""
+
+#: ../searx/templates/oscar/result_templates/files.html:35
+#, fuzzy
+#| msgid "Engine name"
+msgid "Filename"
+msgstr "Tên trình tìm kiếm"
+
+#: ../searx/templates/oscar/result_templates/files.html:37
+#: ../searx/templates/oscar/result_templates/torrent.html:7
+msgid "Filesize"
+msgstr "Kích thước tập tin"
+
+#: ../searx/templates/oscar/result_templates/files.html:38
+#: ../searx/templates/oscar/result_templates/torrent.html:9
+msgid "Bytes"
+msgstr "Byte"
+
+#: ../searx/templates/oscar/result_templates/files.html:39
+#: ../searx/templates/oscar/result_templates/torrent.html:10
+msgid "kiB"
+msgstr "kiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:40
+#: ../searx/templates/oscar/result_templates/torrent.html:11
+msgid "MiB"
+msgstr "MiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:41
+#: ../searx/templates/oscar/result_templates/torrent.html:12
+msgid "GiB"
+msgstr "GiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:42
+#: ../searx/templates/oscar/result_templates/torrent.html:13
+msgid "TiB"
+msgstr "TiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:46
+msgid "Date"
+msgstr ""
+
+#: ../searx/templates/oscar/result_templates/files.html:48
+msgid "Type"
+msgstr ""
+
+#: ../searx/templates/oscar/result_templates/images.html:27
+msgid "Get image"
+msgstr "Xem hình ảnh"
+
+#: ../searx/templates/oscar/result_templates/images.html:30
+msgid "View source"
+msgstr "Xem nguồn"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "show map"
+msgstr "hiện bản đồ"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "hide map"
+msgstr "ẩn bản đồ"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "show details"
+msgstr "hiện chi tiết"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "hide details"
+msgstr "ẩn chi tiết"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Seeder"
+msgstr "Seeder"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Leecher"
+msgstr "Leecher"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:15
+msgid "Number of Files"
+msgstr "Số lượng tập tin"
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "show video"
+msgstr "hiện "
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "hide video"
+msgstr "ẩn phim"
+
+#: ../searx/templates/oscar/result_templates/videos.html:20
+msgid "Length"
+msgstr ""
+
+#~ msgid ""
+#~ "Results are opened in the same window by default. This plugin overwrites "
+#~ "the default behaviour to open links on new tabs/windows. (JavaScript "
+#~ "required)"
+#~ msgstr ""
+#~ "Theo mặc định thì các kết quả được mở trên cùng một cửa sổ. Phần mở rộng "
+#~ "này sẽ ghi đè lên hành vi mặc định đó để mở các liên kết trên các thẻ/cửa "
+#~ "sổ mới. (yêu cầu JavaScript)"
+
+#~ msgid "Color"
+#~ msgstr "Màu sắc"
+
+#~ msgid "Blue (default)"
+#~ msgstr "Xanh lam (mặc định)"
+
+#~ msgid "Violet"
+#~ msgstr "Tím"
+
+#~ msgid "Green"
+#~ msgstr "Xanh lục"
+
+#~ msgid "Cyan"
+#~ msgstr "Lục lam"
+
+#~ msgid "Orange"
+#~ msgstr "Cam"
+
+#~ msgid "Red"
+#~ msgstr "Đỏ"
+
+#~ msgid "Currently used search engines"
+#~ msgstr "Các trình tìm kiếm đang được dùng"
+
+#~ msgid "Category"
+#~ msgstr "Danh mục"
+
+#~ msgid "Block"
+#~ msgstr "Chặn"
+
+#~ msgid "Answers"
+#~ msgstr "Các đáp án"
+
+#~ msgid "original context"
+#~ msgstr "ngữ cảnh gốc"
+
+#~ msgid "Click on the magnifier to perform search"
+#~ msgstr "Nhấp vào hình kính lúp để tiến hành tìm kiếm"
+
+#~ msgid "Powered by"
+#~ msgstr "Được cung cấp bởi"
+
+#~ msgid "Keywords"
+#~ msgstr "Các từ khoá"
+
+#~ msgid "Load more..."
+#~ msgstr "Tải thêm..."
+
+#~ msgid "Supports selected language"
+#~ msgstr "Có hỗ trợ ngôn ngữ được chọn"
+
+#~ msgid "User interface"
+#~ msgstr "Giao diện người dùng"
+
+#~ msgid "Privacy"
+#~ msgstr "Quyền riêng tư"

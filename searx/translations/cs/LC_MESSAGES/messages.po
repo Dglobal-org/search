@@ -1,0 +1,1114 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Clon <fillip1@seznam.cz>, 2017
+# Clon <fillip1@seznam.cz>, 2017
+# Lukáš Kucharczyk <lukas@kucharczyk.xyz>, 2020
+# Venca24 <Vaclav.Zouzalik@seznam.cz>, 2020
+# Venca24 <Vaclav.Zouzalik@seznam.cz>, 2018
+# Jonáš Loskot <fjuro@seznam.cz>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-18 02:49+0200\n"
+"PO-Revision-Date: 2022-05-09 07:12+0000\n"
+"Last-Translator: Jonáš Loskot <fjuro@seznam.cz>\n"
+"Language-Team: Czech <https://translate.tosdr.org/projects/tosdr-search/main/"
+"cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 4.5.1\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../searx/webapp.py:164
+msgid "files"
+msgstr "soubory"
+
+#: ../searx/webapp.py:165
+msgid "general"
+msgstr "obecné"
+
+#: ../searx/webapp.py:166
+msgid "music"
+msgstr "hudba"
+
+#: ../searx/webapp.py:167
+msgid "social media"
+msgstr "sociální media"
+
+#: ../searx/webapp.py:168
+msgid "images"
+msgstr "obrázky"
+
+#: ../searx/webapp.py:169
+msgid "videos"
+msgstr "videa"
+
+#: ../searx/webapp.py:170
+msgid "it"
+msgstr "IT"
+
+#: ../searx/webapp.py:171
+msgid "news"
+msgstr "zprávy"
+
+#: ../searx/webapp.py:172
+msgid "map"
+msgstr "mapa"
+
+#: ../searx/webapp.py:173
+msgid "onions"
+msgstr "oniony"
+
+#: ../searx/webapp.py:174
+msgid "science"
+msgstr "věda"
+
+#: ../searx/webapp.py:375
+msgid "could not load data"
+msgstr "nepodařilo se načíst data"
+
+#: ../searx/webapp.py:377
+msgid "No item found"
+msgstr "Nic nenalezeno"
+
+#: ../searx/webapp.py:483 ../searx/webapp.py:848
+msgid "Invalid settings, please edit your preferences"
+msgstr "Neplatné nastavení, upravte své předvolby"
+
+#: ../searx/webapp.py:499
+msgid "Invalid settings"
+msgstr "Neplatné nastavení"
+
+#: ../searx/webapp.py:564 ../searx/webapp.py:629
+msgid "search error"
+msgstr "chyba vyhledávání"
+
+#: ../searx/webapp.py:672
+msgid "{minutes} minute(s) ago"
+msgstr "před {minutes} minutami"
+
+#: ../searx/webapp.py:674
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "před {hours} hodinami, {minutes} minutami"
+
+#: ../searx/answerers/statistics/answerer.py:54
+msgid "Statistics functions"
+msgstr "Statistické funkce"
+
+#: ../searx/answerers/statistics/answerer.py:55
+msgid "Compute {functions} of the arguments"
+msgstr "Výpočet funkcí {functions} pro daný argument"
+
+#: ../searx/engines/__init__.py:251
+msgid "Engine time (sec)"
+msgstr "Strojový čas (s)"
+
+#: ../searx/engines/__init__.py:255
+msgid "Page loads (sec)"
+msgstr "Načítání stránky (s)"
+
+#: ../searx/engines/__init__.py:259 ../searx/templates/oscar/results.html:34
+msgid "Number of results"
+msgstr "Počet výsledků"
+
+#: ../searx/engines/__init__.py:263
+msgid "Scores"
+msgstr "Skóre"
+
+#: ../searx/engines/__init__.py:267
+msgid "Scores per result"
+msgstr "Skóre na výsledek"
+
+#: ../searx/engines/__init__.py:271
+msgid "Errors"
+msgstr "Chyby"
+
+#: ../searx/engines/openstreetmap.py:49
+msgid "Get directions"
+msgstr "Získat pokyny"
+
+#: ../searx/engines/pdbe.py:90
+msgid "{title} (OBSOLETE)"
+msgstr "{title} (ZASTARALÉ)"
+
+#: ../searx/engines/pdbe.py:97
+msgid "This entry has been superseded by"
+msgstr "Tato položka byla nahrazena položkou"
+
+#: ../searx/engines/pubmed.py:78
+msgid "No abstract is available for this publication."
+msgstr "Pro tuto publikaci neexistuje žádný abstrakt."
+
+#: ../searx/plugins/better_answerer.py:9
+msgid "Better Answerers"
+msgstr "Lepší odpovídači"
+
+#: ../searx/plugins/better_answerer.py:10
+msgid "Module to improve the Answerer functionality in searx"
+msgstr "Modul k vylepšení funkčnosti Odpovídače v searx"
+
+#: ../searx/plugins/hostname_replace.py:7
+msgid "Hostname replace"
+msgstr "Nahrazení hostitele"
+
+#: ../searx/plugins/hostname_replace.py:8
+msgid "Rewrite result hostnames"
+msgstr "Přepsat výsledkové hostitele"
+
+#: ../searx/plugins/https_rewrite.py:29
+msgid "Rewrite HTTP links to HTTPS if possible"
+msgstr "Přesměrovat HTTP na HTTPS, pokud je to možné"
+
+#: ../searx/plugins/infinite_scroll.py:3
+msgid "Infinite scroll"
+msgstr "Nekonečné výsledky"
+
+#: ../searx/plugins/infinite_scroll.py:4
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr "Automaticky načítat další výsledky při rolování"
+
+#: ../searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr "Přesměrování na Open Access DOI"
+
+#: ../searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications when "
+"available"
+msgstr ""
+"Automaticky přesměrovat na volně přístupné verze publikací místo placených, "
+"pokud je to možné"
+
+#: ../searx/plugins/search_on_category_select.py:18
+msgid "Search on category select"
+msgstr "Spustit hledaní při výběru kategorie"
+
+#: ../searx/plugins/search_on_category_select.py:19
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+"Provede hledání okamžitě při výběru kategorie. Pokud je tato funkce vypnuta, "
+"je možné vybrat více kategorií. (Vyžaduje JavaScript)"
+
+#: ../searx/plugins/self_info.py:19
+msgid "Self Informations"
+msgstr "Vlastní informace"
+
+#: ../searx/plugins/self_info.py:20
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr ""
+"Umožňuje hledat informace o sobě: \"ip\" zobrazí vaši IP adresu a \"user "
+"agent\" zobrazí identifikátor prohlížeče."
+
+#: ../searx/plugins/tracker_url_remover.py:27
+msgid "Tracker URL remover"
+msgstr "Odstraňovač sledovacích URL"
+
+#: ../searx/plugins/tracker_url_remover.py:28
+msgid "Remove trackers arguments from the returned URL"
+msgstr "Odstranit sledovací parametry z načtených URL"
+
+#: ../searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr "Klávesové zkratky jako v textovém editoru Vim"
+
+#: ../searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). Press "
+"\"h\" key on main or result page to get help."
+msgstr ""
+"Procházení výsledků pomocí kláves stejných jako v textovém editoru Vim "
+"(vyžaduje JavaScript). Stisknutím klávesy \"h\" na hlavní stránce či stránce "
+"výsledků zobrazíte nápovědu."
+
+#: ../searx/plugins/answerer/alternative/answerer.py:24
+msgid "The ToS;DR Team"
+msgstr "Tým ToS;DR"
+
+#: ../searx/plugins/answerer/alternative/answerer.py:85
+msgid "Privacy Alternative"
+msgstr "Alternativa s ochranou soukromí"
+
+#: ../searx/plugins/answerer/alternative/answerer.py:86
+msgid "Get privacy friendly alternatives from popular services."
+msgstr ""
+"Získejte alternativy oblíbených služeb, které kladou důraz na ochranu "
+"soukromí."
+
+#: ../searx/plugins/answerer/alternative/answerer.py:90
+msgid "Report a bug to the maintainer"
+msgstr "Nahlásit chybu správci"
+
+#: ../searx/plugins/answerer/alternative/templates/answer.html:1
+msgid "Privacy friendly alternatives to {service}"
+msgstr "Alternativy ke službě {service} šetrné k soukromí"
+
+#: ../searx/plugins/answerer/ascii/answerer.py:41
+msgid "Ascii Shortcuts"
+msgstr "Ascii zkratky"
+
+#: ../searx/plugins/answerer/ascii/answerer.py:42
+msgid "Does some Ascii Stuff"
+msgstr "Dělá nějaké Ascii věci"
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:96
+msgid "Bitcoin Index"
+msgstr "Index Bitcoin"
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:97
+msgid "Get a the bitcoin index via currency or by default via USD, EUR and GBP"
+msgstr ""
+"Získejte index Bitcoin prostřednictvím měny nebo ve výchozím nastavení "
+"prostřednictvím USD, EUR a GBP"
+
+#: ../searx/plugins/answerer/bitcoin/templates/all.html:1
+#: ../searx/plugins/answerer/bitcoin/templates/currency.html:1
+msgid "The current Bitcoin index is"
+msgstr "Současný index Bitcoin je"
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:79
+msgid "Cheatsheet Index"
+msgstr "Rejstřík cheatsheetů"
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:80
+msgid "Cheatsheet module to load some awesome modules found around the web."
+msgstr ""
+"Modul cheatsheetů, který načítá úžasné moduly nalezené v různých koutech "
+"webu."
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:1
+msgid "Guitar Cheatsheet"
+msgstr "Kytarový cheatheet"
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:24
+msgid "Cheatsheet Images by {source}"
+msgstr "Obrázky cheatsheetu od {source}"
+
+#: ../searx/plugins/answerer/grade/answerer.py:82
+msgid "{service} has a Privacy {grade} on ToS;DR"
+msgstr "Služba {service} má známku {grade} na ToS;DR"
+
+#: ../searx/plugins/answerer/grade/answerer.py:116
+msgid "ToS;DR Grade"
+msgstr "Známka ToS;DR"
+
+#: ../searx/plugins/answerer/grade/answerer.py:117
+msgid "Get a grade from ToS;DR using the ToS;DR API"
+msgstr "Získejte známku z ToS;DR pomocí ToS;DR API"
+
+#: ../searx/plugins/answerer/hash/answerer.py:69
+msgid "Hash Generator"
+msgstr "Generátor hashů"
+
+#: ../searx/plugins/answerer/hash/answerer.py:70
+msgid "Generate md4, md5, sha1, sha256 and sha512 hashes"
+msgstr "Generujte hashe md4, md5, sha1, sha256 a sha512"
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:64
+msgid "Leetspeak Answerer"
+msgstr "Odpovídač Leetspeak"
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:65
+#, fuzzy
+msgid "L 3 3 '][' 5 |D 3 /-\\ |< I 5 C 0 0 |_"
+msgstr "L 3 3 '][' 5 |D 3 /-\\ |< I 5 C 0 0 |_"
+
+#: ../searx/plugins/answerer/nato/answerer.py:66
+msgid "Nato Converter"
+msgstr "Převodník Nato"
+
+#: ../searx/plugins/answerer/nato/answerer.py:67
+msgid "Converts words into the nato phonetic alphabet"
+msgstr "Převádí slova do fonetické abecedy Nato"
+
+#: ../searx/plugins/answerer/onion/answerer.py:40
+msgid "Onion Notice"
+msgstr "Oznámení Onion"
+
+#: ../searx/plugins/answerer/onion/answerer.py:41
+msgid "Give a notice if an onion address has been queried"
+msgstr "Pošle oznámení, pokud byla dotazována adresa onion"
+
+#: ../searx/plugins/answerer/random/answerer.py:94
+msgid "Random value generator"
+msgstr "Generátor náhodných hodnot"
+
+#: ../searx/plugins/answerer/random/answerer.py:95
+msgid "Generate different random values"
+msgstr "Generování náhodných hodnot"
+
+#: ../searx/templates/oscar/404.html:4
+msgid "Page not found"
+msgstr "Stránka nenalezena"
+
+#: ../searx/templates/oscar/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "Přejít na %(search_page)s."
+
+#: ../searx/templates/oscar/404.html:6
+msgid "search page"
+msgstr "stránka vyhledávání"
+
+#: ../searx/templates/oscar/about.html:2 ../searx/templates/oscar/navbar.html:6
+msgid "about"
+msgstr "o nás"
+
+#: ../searx/templates/oscar/advanced.html:4
+msgid "Advanced settings"
+msgstr "Pokročilá nastavení"
+
+#: ../searx/templates/oscar/base.html:77
+#: ../searx/templates/oscar/messages/first_time.html:4
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:5
+#: ../searx/templates/oscar/messages/unknow_error.html:5
+msgid "Close"
+msgstr "Zavřít"
+
+#: ../searx/templates/oscar/base.html:79
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Error!"
+msgstr "Chyba!"
+
+#: ../searx/templates/oscar/base.html:107
+msgid "Powered by {searx} and forked by {tosdr}"
+msgstr "Běží na forku {searx} od {tosdr}"
+
+#: ../searx/templates/oscar/base.html:108
+msgid "{version} on commit {hash}"
+msgstr "{version} commit {hash}"
+
+#: ../searx/templates/oscar/base.html:109
+msgid "a privacy-respecting, hackable metasearch engine"
+msgstr "soukromí respektujícím, nastavitelným multivyhledávačem"
+
+#: ../searx/templates/oscar/base.html:110
+msgid "Source code"
+msgstr "Zdrojový kód"
+
+#: ../searx/templates/oscar/base.html:111
+msgid "Issue tracker"
+msgstr "Hlášení chyb"
+
+#: ../searx/templates/oscar/base.html:113
+msgid "Contact instance maintainer"
+msgstr "Kontaktovat správce instance"
+
+#: ../searx/templates/oscar/base.html:115
+msgid "Translate ToS;DR Search"
+msgstr "Přeložit ToS;DR Search"
+
+#: ../searx/templates/oscar/languages.html:2
+msgid "Language"
+msgstr "Jazyk"
+
+#: ../searx/templates/oscar/languages.html:4
+msgid "Default language"
+msgstr "Výchozí jazyk"
+
+#: ../searx/templates/oscar/macros.html:23
+msgid "magnet link"
+msgstr "odkaz magnet"
+
+#: ../searx/templates/oscar/macros.html:24
+msgid "torrent file"
+msgstr "soubor torrentu"
+
+#: ../searx/templates/oscar/macros.html:36
+#: ../searx/templates/oscar/macros.html:38
+#: ../searx/templates/oscar/macros.html:72
+#: ../searx/templates/oscar/macros.html:74
+msgid "cached"
+msgstr "archivovaná verze"
+
+#: ../searx/templates/oscar/macros.html:42
+#: ../searx/templates/oscar/macros.html:58
+#: ../searx/templates/oscar/macros.html:78
+#: ../searx/templates/oscar/macros.html:92
+msgid "proxied"
+msgstr "přes proxy"
+
+#: ../searx/templates/oscar/macros.html:132
+#: ../searx/templates/oscar/preferences.html:252
+#: ../searx/templates/oscar/preferences.html:269
+msgid "Allow"
+msgstr "Povolit"
+
+#: ../searx/templates/oscar/macros.html:139
+msgid "supported"
+msgstr "podporováno"
+
+#: ../searx/templates/oscar/macros.html:143
+msgid "not supported"
+msgstr "nepodporováno"
+
+#: ../searx/templates/oscar/navbar.html:7
+#: ../searx/templates/oscar/preferences.html:16
+msgid "preferences"
+msgstr "nastavení"
+
+#: ../searx/templates/oscar/preferences.html:12
+msgid "No HTTPS"
+msgstr "Bez HTTPS"
+
+#: ../searx/templates/oscar/preferences.html:21
+msgid "Preferences"
+msgstr "Nastavení"
+
+#: ../searx/templates/oscar/preferences.html:26
+#: ../searx/templates/oscar/preferences.html:36
+msgid "General"
+msgstr "Obecné"
+
+#: ../searx/templates/oscar/preferences.html:27
+#: ../searx/templates/oscar/preferences.html:226
+msgid "Engines"
+msgstr "Vyhledávače"
+
+#: ../searx/templates/oscar/preferences.html:28
+#: ../searx/templates/oscar/preferences.html:329
+msgid "Plugins"
+msgstr "Zásuvné moduly"
+
+#: ../searx/templates/oscar/preferences.html:30
+#: ../searx/templates/oscar/preferences.html:359
+msgid "Answerers"
+msgstr "Odpovídači"
+
+#: ../searx/templates/oscar/preferences.html:31
+#: ../searx/templates/oscar/preferences.html:412
+msgid "Cookies"
+msgstr "Cookies"
+
+#: ../searx/templates/oscar/preferences.html:49
+#: ../searx/templates/oscar/preferences.html:52
+msgid "Default categories"
+msgstr "Základní kategorie"
+
+#: ../searx/templates/oscar/preferences.html:60
+msgid "Search language"
+msgstr "Jazyk hledání"
+
+#: ../searx/templates/oscar/preferences.html:61
+msgid "What language do you prefer for search?"
+msgstr "Jaký jazyk vyhledávání upřednostňujete?"
+
+#: ../searx/templates/oscar/preferences.html:68
+msgid "Interface language"
+msgstr "Jazyk rozhraní"
+
+#: ../searx/templates/oscar/preferences.html:69
+msgid "Change the language of the layout"
+msgstr "Nastavit jazyk rozhraní"
+
+#: ../searx/templates/oscar/preferences.html:81
+msgid "Autocomplete"
+msgstr "Našeptávač"
+
+#: ../searx/templates/oscar/preferences.html:82
+msgid "Find stuff as you type"
+msgstr "Vyhledávat během psaní"
+
+#: ../searx/templates/oscar/preferences.html:96
+msgid "Image proxy"
+msgstr "Nepřímé vyhledávání obrázků"
+
+#: ../searx/templates/oscar/preferences.html:97
+msgid "Proxying image results through searx"
+msgstr "Načítat výsledky vyhledávání obrázků přes proxy"
+
+#: ../searx/templates/oscar/preferences.html:102
+msgid "Enabled"
+msgstr "Zapnuto"
+
+#: ../searx/templates/oscar/preferences.html:104
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: ../searx/templates/oscar/preferences.html:110
+msgid "Method"
+msgstr "Dotazovací metoda"
+
+#: ../searx/templates/oscar/preferences.html:111
+msgid ""
+"Change how forms are submited, <a href=\"http://en.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">learn more "
+"about request methods</a>"
+msgstr ""
+"Určuje způsob odesílání formulářů. Informace o dotazovacích metodách <a href="
+"\"http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods\" "
+"rel=\"external\">viz Wikipedie</a>"
+
+#: ../searx/templates/oscar/preferences.html:123
+#: ../searx/templates/oscar/preferences.html:256
+#: ../searx/templates/oscar/preferences.html:264
+msgid "SafeSearch"
+msgstr "Bezpečné vyhledávání"
+
+#: ../searx/templates/oscar/preferences.html:124
+msgid "Filter content"
+msgstr "Filtrovat obsah"
+
+#: ../searx/templates/oscar/preferences.html:129
+msgid "Strict"
+msgstr "Přísné"
+
+#: ../searx/templates/oscar/preferences.html:131
+msgid "Moderate"
+msgstr "Střední"
+
+#: ../searx/templates/oscar/preferences.html:133
+msgid "None"
+msgstr "Vypnuto"
+
+#: ../searx/templates/oscar/preferences.html:139
+msgid "Themes"
+msgstr "Motivy"
+
+#: ../searx/templates/oscar/preferences.html:140
+msgid "Change searx layout"
+msgstr "Motiv rozhraní searx"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Choose style for this theme"
+msgstr "Styl daného motivu"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Style"
+msgstr "Styl"
+
+#: ../searx/templates/oscar/preferences.html:164
+msgid "Results on new tabs"
+msgstr "Výsledky na novém panelu"
+
+#: ../searx/templates/oscar/preferences.html:165
+msgid "Open result links on new browser tabs"
+msgstr "Otevírat výsledky na novém panelu prohlížeče"
+
+#: ../searx/templates/oscar/preferences.html:170
+#: ../searx/templates/oscar/preferences.html:183
+msgid "On"
+msgstr "Zapnuto"
+
+#: ../searx/templates/oscar/preferences.html:172
+#: ../searx/templates/oscar/preferences.html:185
+msgid "Off"
+msgstr "Vypnuto"
+
+#: ../searx/templates/oscar/preferences.html:177
+msgid "Show advanced settings"
+msgstr "Zobrazit pokročilá nastavení"
+
+#: ../searx/templates/oscar/preferences.html:178
+msgid "Show advanced settings panel in the home page by default"
+msgstr ""
+"Zobrazit na hlavní stránce ve výchozím nastavení panel pokročilých nastavení"
+
+#: ../searx/templates/oscar/preferences.html:190
+msgid "Open Access DOI resolver"
+msgstr "Web pro přesměrování na Open Access DOI"
+
+#: ../searx/templates/oscar/preferences.html:191
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+"Přesměrovat na volně přístupné verze publikací, pokud jsou k dispozici "
+"(vyžaduje zásuvný modul)"
+
+#: ../searx/templates/oscar/preferences.html:205
+msgid "Engine tokens"
+msgstr "Tokeny vyhledávačů"
+
+#: ../searx/templates/oscar/preferences.html:206
+msgid "Access tokens for private engines"
+msgstr "Přístupové tokeny pro soukromé vyhledávače"
+
+#: ../searx/templates/oscar/preferences.html:235
+msgid "Allow all"
+msgstr "Povolit vše"
+
+#: ../searx/templates/oscar/preferences.html:237
+msgid "Disable all"
+msgstr "Zakázat vše"
+
+#: ../searx/templates/oscar/preferences.html:253
+#: ../searx/templates/oscar/preferences.html:268
+msgid "Engine name"
+msgstr "Jméno vyhledávače"
+
+#: ../searx/templates/oscar/preferences.html:254
+#: ../searx/templates/oscar/preferences.html:267
+msgid "Shortcut"
+msgstr "Zkratka"
+
+#: ../searx/templates/oscar/preferences.html:255
+#: ../searx/templates/oscar/preferences.html:266
+msgid "Selected language"
+msgstr "Váš jazyk vyhledávání"
+
+#: ../searx/templates/oscar/preferences.html:257
+#: ../searx/templates/oscar/preferences.html:263
+#: ../searx/templates/oscar/time-range.html:2
+msgid "Time range"
+msgstr "Čásový interval"
+
+#: ../searx/templates/oscar/preferences.html:258
+#: ../searx/templates/oscar/preferences.html:262
+msgid "Avg. time"
+msgstr "Prům. čas"
+
+#: ../searx/templates/oscar/preferences.html:259
+#: ../searx/templates/oscar/preferences.html:261
+msgid "Max time"
+msgstr "Max. čas"
+
+#: ../searx/templates/oscar/preferences.html:362
+msgid "This is the list of searx's instant answering modules."
+msgstr ""
+"Toto je seznam modulů vyhledávače searx, které poskytují okamžité odpovědi."
+
+#: ../searx/templates/oscar/preferences.html:366
+msgid "Name"
+msgstr "Název"
+
+#: ../searx/templates/oscar/preferences.html:367
+#: ../searx/templates/oscar/results.html:191
+#: ../searx/templates/oscar/results.html:196
+#: ../searx/templates/oscar/results.html:204
+#: ../searx/templates/oscar/results.html:209
+msgid "Developer"
+msgstr "Vývojář"
+
+#: ../searx/templates/oscar/preferences.html:368
+msgid "Description"
+msgstr "Popis"
+
+#: ../searx/templates/oscar/preferences.html:369
+msgid "Examples"
+msgstr "Příklady"
+
+#: ../searx/templates/oscar/preferences.html:415
+msgid ""
+"This is the list of cookies and their values searx is storing on your "
+"computer."
+msgstr ""
+"Toto je seznam cookies a jejich hodnot, které searx ukládá na vašem počítači."
+
+#: ../searx/templates/oscar/preferences.html:416
+msgid "With that list, you can assess searx transparency."
+msgstr "Pomocí něj můžete posoudit, jestli je searx transparentní."
+
+#: ../searx/templates/oscar/preferences.html:421
+msgid "Cookie name"
+msgstr "Název cookie"
+
+#: ../searx/templates/oscar/preferences.html:422
+msgid "Value"
+msgstr "Hodnota"
+
+#: ../searx/templates/oscar/preferences.html:439
+msgid ""
+"These settings are stored in your cookies, this allows us not to store this "
+"data about you."
+msgstr ""
+"Tato nastavení jsou uložena ve vašich cookies, což nám umožňuje tyto data "
+"neuchovávat nikde jinde."
+
+#: ../searx/templates/oscar/preferences.html:440
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr ""
+"Tyto cookies existují výhradně pro vaše pohodlí, nepoužíváme je ke sledování."
+
+#: ../searx/templates/oscar/preferences.html:444
+msgid "Search URL of the currently saved preferences"
+msgstr "URL pro vyhledávání s aktuálně uloženými předvolbami"
+
+#: ../searx/templates/oscar/preferences.html:445
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr ""
+"Poznámka: zadaní vlastních nastavení v URL může snížit soukromí prozrazením "
+"dat při kliknutí na výsledky hledání."
+
+#: ../searx/templates/oscar/preferences.html:452
+msgid "save"
+msgstr "uložit"
+
+#: ../searx/templates/oscar/preferences.html:454
+msgid "back"
+msgstr "zpět"
+
+#: ../searx/templates/oscar/preferences.html:457
+msgid "Reset defaults"
+msgstr "obnovit výchozí"
+
+#: ../searx/templates/oscar/results.html:39
+msgid "Engines cannot retrieve results"
+msgstr "Vyhledávače nemohou získat výsledky"
+
+#: ../searx/templates/oscar/results.html:55
+msgid "Suggestions"
+msgstr "Návrhy"
+
+#: ../searx/templates/oscar/results.html:77
+msgid "Links"
+msgstr "Odkazy"
+
+#: ../searx/templates/oscar/results.html:82
+msgid "Search URL"
+msgstr "URL vyhledávání"
+
+#: ../searx/templates/oscar/results.html:88
+msgid "Download results"
+msgstr "Stáhnout výsledky vyhledávání"
+
+#: ../searx/templates/oscar/results.html:100
+msgid "RSS subscription"
+msgstr "Odběr RSS"
+
+#: ../searx/templates/oscar/results.html:107
+msgid "Search results"
+msgstr "Výsledky vyhledávání"
+
+#: ../searx/templates/oscar/results.html:112
+msgid "Try searching for:"
+msgstr "Zkuste vyhledat:"
+
+#: ../searx/templates/oscar/results.html:159
+msgid "No Description provided by the developer"
+msgstr "Vývojářem nebyl poskytnut žádný popis"
+
+#: ../searx/templates/oscar/results.html:166
+msgid "Issue Tracker"
+msgstr "Hlášení chyb"
+
+#: ../searx/templates/oscar/results.html:175
+msgid ""
+"Source\n"
+"                                                        Code"
+msgstr ""
+"Zdrojový\n"
+"                                                        Kód"
+
+#: ../searx/templates/oscar/results.html:183
+msgid "Website"
+msgstr "Web"
+
+#: ../searx/templates/oscar/results.html:253
+#: ../searx/templates/oscar/results.html:283
+#: ../searx/templates/oscar/results.html:296
+msgid "Missing Text"
+msgstr "Chybějící text"
+
+#: ../searx/templates/oscar/results.html:333
+#: ../searx/templates/oscar/results.html:367
+msgid "next page"
+msgstr "další stránka"
+
+#: ../searx/templates/oscar/results.html:343
+#: ../searx/templates/oscar/results.html:357
+msgid "previous page"
+msgstr "předchozí stránka"
+
+#: ../searx/templates/oscar/search.html:6
+#: ../searx/templates/oscar/search_full.html:9
+msgid "Search for..."
+msgstr "Hledat…"
+
+#: ../searx/templates/oscar/search.html:8
+#: ../searx/templates/oscar/search_full.html:11
+msgid "Start search"
+msgstr "Začít hledat"
+
+#: ../searx/templates/oscar/search.html:9
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear search"
+msgstr "Smazat vyhledávání"
+
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear"
+msgstr "Smazat"
+
+#: ../searx/templates/oscar/stats.html:2
+msgid "stats"
+msgstr "statistiky"
+
+#: ../searx/templates/oscar/stats.html:5
+msgid "Engine stats"
+msgstr "Statistiky vyhledávače"
+
+#: ../searx/templates/oscar/time-range.html:5
+msgid "Anytime"
+msgstr "Kdykoli"
+
+#: ../searx/templates/oscar/time-range.html:8
+msgid "Last day"
+msgstr "Dnes"
+
+#: ../searx/templates/oscar/time-range.html:11
+msgid "Last week"
+msgstr "Tento týden"
+
+#: ../searx/templates/oscar/time-range.html:14
+msgid "Last month"
+msgstr "Měsíc"
+
+#: ../searx/templates/oscar/time-range.html:17
+msgid "Last year"
+msgstr "Rok"
+
+#: ../searx/templates/oscar/messages/first_time.html:6
+#: ../searx/templates/oscar/messages/no_data_available.html:3
+msgid "Heads up!"
+msgstr "Jen krátká informace!"
+
+#: ../searx/templates/oscar/messages/first_time.html:7
+msgid "It look like you are using searx first time."
+msgstr "Zdá se, že používáte searx poprvé."
+
+#: ../searx/templates/oscar/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "Informace!"
+
+#: ../searx/templates/oscar/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr "aktuálně nejsou definované žádné cookies."
+
+#: ../searx/templates/oscar/messages/no_data_available.html:4
+msgid "There is currently no data available. "
+msgstr "Aktuálně nejsou k dispozici žádná data. "
+
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Engines cannot retrieve results."
+msgstr "Načtení výsledků vyhledávači se nezdařilo."
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Please, try again later or find another searx instance."
+msgstr "Zkuste to prosím později, nebo použijte jinou instanci searx."
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Public instances"
+msgstr "Veřejné instance"
+
+#: ../searx/templates/oscar/messages/no_results.html:14
+msgid "Sorry!"
+msgstr "Omlouváme se!"
+
+#: ../searx/templates/oscar/messages/no_results.html:15
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr ""
+"Nenašli jsme žádné výsledky. Použijte prosím jiný dotaz nebo hledejte ve "
+"více kategoriích."
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:7
+msgid "Well done!"
+msgstr "Výborně!"
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:8
+msgid "Settings saved successfully."
+msgstr "Nastavení úspěšně uloženo."
+
+#: ../searx/templates/oscar/messages/unknow_error.html:7
+msgid "Oh snap!"
+msgstr "Ale ne!"
+
+#: ../searx/templates/oscar/messages/unknow_error.html:8
+msgid "Something went wrong."
+msgstr "Něco se nepovedlo."
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+#: ../searx/templates/oscar/result_templates/files.html:10
+msgid "show media"
+msgstr "ukázat média"
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+msgid "hide media"
+msgstr "skrýt média"
+
+#: ../searx/templates/oscar/result_templates/files.html:33
+#: ../searx/templates/oscar/result_templates/videos.html:19
+msgid "Author"
+msgstr "Autor"
+
+#: ../searx/templates/oscar/result_templates/files.html:35
+msgid "Filename"
+msgstr "Název souboru"
+
+#: ../searx/templates/oscar/result_templates/files.html:37
+#: ../searx/templates/oscar/result_templates/torrent.html:7
+msgid "Filesize"
+msgstr "Velikost"
+
+#: ../searx/templates/oscar/result_templates/files.html:38
+#: ../searx/templates/oscar/result_templates/torrent.html:9
+msgid "Bytes"
+msgstr "bajtů"
+
+#: ../searx/templates/oscar/result_templates/files.html:39
+#: ../searx/templates/oscar/result_templates/torrent.html:10
+msgid "kiB"
+msgstr "kiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:40
+#: ../searx/templates/oscar/result_templates/torrent.html:11
+msgid "MiB"
+msgstr "MiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:41
+#: ../searx/templates/oscar/result_templates/torrent.html:12
+msgid "GiB"
+msgstr "GiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:42
+#: ../searx/templates/oscar/result_templates/torrent.html:13
+msgid "TiB"
+msgstr "TiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:46
+msgid "Date"
+msgstr "Datum"
+
+#: ../searx/templates/oscar/result_templates/files.html:48
+msgid "Type"
+msgstr "Typ"
+
+#: ../searx/templates/oscar/result_templates/images.html:27
+msgid "Get image"
+msgstr "Načíst obrázek"
+
+#: ../searx/templates/oscar/result_templates/images.html:30
+msgid "View source"
+msgstr "Zobrazit zdroj"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "show map"
+msgstr "zobrazit mapu"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "hide map"
+msgstr "skrýt mapu"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "show details"
+msgstr "zobrazit podrobnosti"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "hide details"
+msgstr "skrýt podrobnosti"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Seeder"
+msgstr "Seeder"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Leecher"
+msgstr "Leecher"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:15
+msgid "Number of Files"
+msgstr "Počet souborů"
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "show video"
+msgstr "zobrazit video"
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "hide video"
+msgstr "skrýt video"
+
+#: ../searx/templates/oscar/result_templates/videos.html:20
+msgid "Length"
+msgstr "Délka"
+
+#~ msgid "CAPTCHA required"
+#~ msgstr "Je vyžadována CAPTCHA"
+
+#~ msgid ""
+#~ "Results are opened in the same window by default. This plugin overwrites "
+#~ "the default behaviour to open links on new tabs/windows. (JavaScript "
+#~ "required)"
+#~ msgstr ""
+#~ "Ve výchozím nastavení se výsledky zobrazují v aktuálním okně. Tento "
+#~ "zásuvný modul umožňuje otevírat odkazy v novém panelu/okně (vyžaduje "
+#~ "JavaScript)."
+
+#~ msgid "Color"
+#~ msgstr "Barva"
+
+#~ msgid "Blue (default)"
+#~ msgstr "Modrá (výchozí)"
+
+#~ msgid "Violet"
+#~ msgstr "Fialová"
+
+#~ msgid "Green"
+#~ msgstr "Zelená"
+
+#~ msgid "Cyan"
+#~ msgstr "Modrozelená"
+
+#~ msgid "Orange"
+#~ msgstr "Oranžová"
+
+#~ msgid "Red"
+#~ msgstr "Červená"
+
+#~ msgid "Currently used search engines"
+#~ msgstr "Aktuálně používané vyhledávače"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "Block"
+#~ msgstr "Zakázat"
+
+#~ msgid "Answers"
+#~ msgstr "Odpovědi"
+
+#~ msgid "original context"
+#~ msgstr "původní kontext"
+
+#~ msgid "Click on the magnifier to perform search"
+#~ msgstr "Vyhledávání provedete kliknutím na lupu"
+
+#~ msgid "Powered by"
+#~ msgstr "Poháněno softwarem"
+
+#~ msgid "Keywords"
+#~ msgstr "Klíčová slova"
+
+#~ msgid "Load more..."
+#~ msgstr "Načíst více…"
+
+#~ msgid "Supports selected language"
+#~ msgstr "Podporuje vybraný jazyk"
+
+#~ msgid "User interface"
+#~ msgstr "Uživatelské rozhraní"
+
+#~ msgid "Privacy"
+#~ msgstr "Soukromí"
+
+#~ msgid "Loading..."
+#~ msgstr "Načítání…"

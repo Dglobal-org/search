@@ -1,0 +1,16 @@
+{
+  "facebook": false,
+  "google": [{
+    "name": "Searx",
+    "url": "https://searx.me"
+  },{
+    "name": "ToS;DR Search",
+    "url": "https://search.tosdr.org"
+  },{
+    "name": "DuckDuckGo",
+    "url": "https://duckduckgo.com"
+  },{
+    "name": "Startpage",
+    "url": "https://startpage.com"
+  }]
+}

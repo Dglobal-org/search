@@ -1,0 +1,1114 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# Translators:
+# Moo, 2019-2020
+msgid ""
+msgstr ""
+"Project-Id-Version: searx\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-18 02:49+0200\n"
+"PO-Revision-Date: 2020-07-12 11:15+0000\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian (http://www.transifex.com/asciimoo/searx/language/"
+"lt/)\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+
+#: ../searx/webapp.py:164
+msgid "files"
+msgstr "failai"
+
+#: ../searx/webapp.py:165
+msgid "general"
+msgstr "bendra"
+
+#: ../searx/webapp.py:166
+msgid "music"
+msgstr "muzika"
+
+#: ../searx/webapp.py:167
+msgid "social media"
+msgstr "socialinė medija"
+
+#: ../searx/webapp.py:168
+msgid "images"
+msgstr "paveikslai"
+
+#: ../searx/webapp.py:169
+msgid "videos"
+msgstr "vaizdo įrašai"
+
+#: ../searx/webapp.py:170
+msgid "it"
+msgstr "IT"
+
+#: ../searx/webapp.py:171
+msgid "news"
+msgstr "naujienos"
+
+#: ../searx/webapp.py:172
+msgid "map"
+msgstr "žemėlapis"
+
+#: ../searx/webapp.py:173
+msgid "onions"
+msgstr ""
+
+#: ../searx/webapp.py:174
+msgid "science"
+msgstr "mokslas"
+
+#: ../searx/webapp.py:375
+msgid "could not load data"
+msgstr ""
+
+#: ../searx/webapp.py:377
+msgid "No item found"
+msgstr "Elementų nerasta"
+
+#: ../searx/webapp.py:483 ../searx/webapp.py:848
+msgid "Invalid settings, please edit your preferences"
+msgstr "Neteisingi nustatymai, pataisykite savo nuostatas"
+
+#: ../searx/webapp.py:499
+msgid "Invalid settings"
+msgstr "Neteisingi nustatymai"
+
+#: ../searx/webapp.py:564 ../searx/webapp.py:629
+msgid "search error"
+msgstr "paieškos klaida"
+
+#: ../searx/webapp.py:672
+msgid "{minutes} minute(s) ago"
+msgstr "prieš {minutes} min."
+
+#: ../searx/webapp.py:674
+msgid "{hours} hour(s), {minutes} minute(s) ago"
+msgstr "prieš {hours} val., {minutes} min."
+
+#: ../searx/answerers/statistics/answerer.py:54
+msgid "Statistics functions"
+msgstr "Statistikos funkcijos"
+
+#: ../searx/answerers/statistics/answerer.py:55
+msgid "Compute {functions} of the arguments"
+msgstr "Skaičiuoti argumentų {functions} funkcijas"
+
+#: ../searx/engines/__init__.py:251
+msgid "Engine time (sec)"
+msgstr "Sistemos laikas (sek.)"
+
+#: ../searx/engines/__init__.py:255
+msgid "Page loads (sec)"
+msgstr "Puslapių įkėlimai (sek.)"
+
+#: ../searx/engines/__init__.py:259 ../searx/templates/oscar/results.html:34
+msgid "Number of results"
+msgstr "Rezultatų skaičius"
+
+#: ../searx/engines/__init__.py:263
+msgid "Scores"
+msgstr "Įverčiai"
+
+#: ../searx/engines/__init__.py:267
+msgid "Scores per result"
+msgstr "Įverčiai pagal rezultatą"
+
+#: ../searx/engines/__init__.py:271
+msgid "Errors"
+msgstr "Klaidos"
+
+#: ../searx/engines/openstreetmap.py:49
+msgid "Get directions"
+msgstr "Gauti nurodymus"
+
+#: ../searx/engines/pdbe.py:90
+msgid "{title} (OBSOLETE)"
+msgstr "{title} (PASENĘS)"
+
+#: ../searx/engines/pdbe.py:97
+msgid "This entry has been superseded by"
+msgstr "Šį įrašą pakeitė"
+
+#: ../searx/engines/pubmed.py:78
+msgid "No abstract is available for this publication."
+msgstr "Šiai publikacijai nėra prieinama jokia santrauka."
+
+#: ../searx/plugins/better_answerer.py:9
+#, fuzzy
+#| msgid "Answerers"
+msgid "Better Answerers"
+msgstr "Atsakikliai"
+
+#: ../searx/plugins/better_answerer.py:10
+msgid "Module to improve the Answerer functionality in searx"
+msgstr ""
+
+#: ../searx/plugins/hostname_replace.py:7
+msgid "Hostname replace"
+msgstr ""
+
+#: ../searx/plugins/hostname_replace.py:8
+msgid "Rewrite result hostnames"
+msgstr ""
+
+#: ../searx/plugins/https_rewrite.py:29
+msgid "Rewrite HTTP links to HTTPS if possible"
+msgstr "Jei įmanoma, perrašyti HTTP nuorodas į HTTPS"
+
+#: ../searx/plugins/infinite_scroll.py:3
+msgid "Infinite scroll"
+msgstr "Begalinis slinkimas"
+
+#: ../searx/plugins/infinite_scroll.py:4
+msgid "Automatically load next page when scrolling to bottom of current page"
+msgstr ""
+"Automatiškai įkelti kitą puslapį, kai nuslenkama į esamo puslapio apačią"
+
+#: ../searx/plugins/oa_doi_rewrite.py:9
+msgid "Open Access DOI rewrite"
+msgstr "Atvirosios prieigos DOI perrašymas"
+
+#: ../searx/plugins/oa_doi_rewrite.py:10
+msgid ""
+"Avoid paywalls by redirecting to open-access versions of publications when "
+"available"
+msgstr ""
+"Vengti apmokamų sienų, kai įmanoma, peradresuojant į atviros prieigos "
+"publikacijų versijas"
+
+#: ../searx/plugins/search_on_category_select.py:18
+msgid "Search on category select"
+msgstr "Pasirinkus kategoriją, atlikti paiešką"
+
+#: ../searx/plugins/search_on_category_select.py:19
+msgid ""
+"Perform search immediately if a category selected. Disable to select "
+"multiple categories. (JavaScript required)"
+msgstr ""
+"Jei pasirenkama kategorija, nedelsiant atlikti paiešką. Išjunkite norėdami "
+"pasirinkti kelias kategorijas. (reikalinga JavaScript)"
+
+#: ../searx/plugins/self_info.py:19
+#, fuzzy
+#| msgid "Information!"
+msgid "Self Informations"
+msgstr "Informacija!"
+
+#: ../searx/plugins/self_info.py:20
+msgid ""
+"Displays your IP if the query is \"ip\" and your user agent if the query "
+"contains \"user agent\"."
+msgstr ""
+"Rodo jūsų IP adresą, jei užklausa yra \"ip\" ir jūsų naudotojo agentą, jei "
+"užklausoje yra \"user agent\"."
+
+#: ../searx/plugins/tracker_url_remover.py:27
+msgid "Tracker URL remover"
+msgstr "Seklių URL šalintojas"
+
+#: ../searx/plugins/tracker_url_remover.py:28
+msgid "Remove trackers arguments from the returned URL"
+msgstr "Šalinti seklių argumentus iš grąžinamų URL"
+
+#: ../searx/plugins/vim_hotkeys.py:3
+msgid "Vim-like hotkeys"
+msgstr "Vim pavidalo spartieji klavišai"
+
+#: ../searx/plugins/vim_hotkeys.py:4
+msgid ""
+"Navigate search results with Vim-like hotkeys (JavaScript required). Press "
+"\"h\" key on main or result page to get help."
+msgstr ""
+"Naršyti po paieškos rezultatus naudojant Vim pavidalo sparčiuosius klavišus "
+"(reikalinga JavaScript). Paspauskite pagrindiniame ar rezultatų puslapyje \"h"
+"\" klavišą norėdami gauti pagalbos."
+
+#: ../searx/plugins/answerer/alternative/answerer.py:24
+msgid "The ToS;DR Team"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:85
+msgid "Privacy Alternative"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:86
+msgid "Get privacy friendly alternatives from popular services."
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/answerer.py:90
+msgid "Report a bug to the maintainer"
+msgstr ""
+
+#: ../searx/plugins/answerer/alternative/templates/answer.html:1
+msgid "Privacy friendly alternatives to {service}"
+msgstr ""
+
+#: ../searx/plugins/answerer/ascii/answerer.py:41
+#, fuzzy
+#| msgid "Shortcut"
+msgid "Ascii Shortcuts"
+msgstr "Trumpinys"
+
+#: ../searx/plugins/answerer/ascii/answerer.py:42
+msgid "Does some Ascii Stuff"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:96
+msgid "Bitcoin Index"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/answerer.py:97
+msgid "Get a the bitcoin index via currency or by default via USD, EUR and GBP"
+msgstr ""
+
+#: ../searx/plugins/answerer/bitcoin/templates/all.html:1
+#: ../searx/plugins/answerer/bitcoin/templates/currency.html:1
+msgid "The current Bitcoin index is"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:79
+msgid "Cheatsheet Index"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/answerer.py:80
+msgid "Cheatsheet module to load some awesome modules found around the web."
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:1
+msgid "Guitar Cheatsheet"
+msgstr ""
+
+#: ../searx/plugins/answerer/cheatsheets/modules/guitar/templates/all.html:24
+msgid "Cheatsheet Images by {source}"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:82
+msgid "{service} has a Privacy {grade} on ToS;DR"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:116
+msgid "ToS;DR Grade"
+msgstr ""
+
+#: ../searx/plugins/answerer/grade/answerer.py:117
+msgid "Get a grade from ToS;DR using the ToS;DR API"
+msgstr ""
+
+#: ../searx/plugins/answerer/hash/answerer.py:69
+msgid "Hash Generator"
+msgstr ""
+
+#: ../searx/plugins/answerer/hash/answerer.py:70
+msgid "Generate md4, md5, sha1, sha256 and sha512 hashes"
+msgstr ""
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:64
+msgid "Leetspeak Answerer"
+msgstr ""
+
+#: ../searx/plugins/answerer/leetspeak/answerer.py:65
+msgid "L 3 3 '][' 5 |D 3 /-\\ |< I 5 C 0 0 |_"
+msgstr ""
+
+#: ../searx/plugins/answerer/nato/answerer.py:66
+msgid "Nato Converter"
+msgstr ""
+
+#: ../searx/plugins/answerer/nato/answerer.py:67
+msgid "Converts words into the nato phonetic alphabet"
+msgstr ""
+
+#: ../searx/plugins/answerer/onion/answerer.py:40
+msgid "Onion Notice"
+msgstr ""
+
+#: ../searx/plugins/answerer/onion/answerer.py:41
+msgid "Give a notice if an onion address has been queried"
+msgstr ""
+
+#: ../searx/plugins/answerer/random/answerer.py:94
+msgid "Random value generator"
+msgstr "Atsitiktinių reikmių generatorius"
+
+#: ../searx/plugins/answerer/random/answerer.py:95
+msgid "Generate different random values"
+msgstr "Generuoja įvairias atsitiktines reikšmes"
+
+#: ../searx/templates/oscar/404.html:4
+msgid "Page not found"
+msgstr "Puslapis nerastas"
+
+#: ../searx/templates/oscar/404.html:6
+#, python-format
+msgid "Go to %(search_page)s."
+msgstr "Pereiti į %(search_page)s."
+
+#: ../searx/templates/oscar/404.html:6
+msgid "search page"
+msgstr "paieškos puslapį"
+
+#: ../searx/templates/oscar/about.html:2 ../searx/templates/oscar/navbar.html:6
+msgid "about"
+msgstr "apie"
+
+#: ../searx/templates/oscar/advanced.html:4
+msgid "Advanced settings"
+msgstr "Išplėstiniai nustatymai"
+
+#: ../searx/templates/oscar/base.html:77
+#: ../searx/templates/oscar/messages/first_time.html:4
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:5
+#: ../searx/templates/oscar/messages/unknow_error.html:5
+msgid "Close"
+msgstr "Užverti"
+
+#: ../searx/templates/oscar/base.html:79
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Error!"
+msgstr "Klaida!"
+
+#: ../searx/templates/oscar/base.html:107
+msgid "Powered by {searx} and forked by {tosdr}"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:108
+msgid "{version} on commit {hash}"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:109
+msgid "a privacy-respecting, hackable metasearch engine"
+msgstr "gerbianti privatumą, programuojama metapaieškos sistema"
+
+#: ../searx/templates/oscar/base.html:110
+msgid "Source code"
+msgstr "Pradinis kodas"
+
+#: ../searx/templates/oscar/base.html:111
+msgid "Issue tracker"
+msgstr "Klaidų sekiklis"
+
+#: ../searx/templates/oscar/base.html:113
+msgid "Contact instance maintainer"
+msgstr ""
+
+#: ../searx/templates/oscar/base.html:115
+msgid "Translate ToS;DR Search"
+msgstr ""
+
+#: ../searx/templates/oscar/languages.html:2
+msgid "Language"
+msgstr "Kalba"
+
+#: ../searx/templates/oscar/languages.html:4
+msgid "Default language"
+msgstr "Numatytoji kalba"
+
+#: ../searx/templates/oscar/macros.html:23
+msgid "magnet link"
+msgstr "magnet nuoroda"
+
+#: ../searx/templates/oscar/macros.html:24
+msgid "torrent file"
+msgstr "torrent failas"
+
+#: ../searx/templates/oscar/macros.html:36
+#: ../searx/templates/oscar/macros.html:38
+#: ../searx/templates/oscar/macros.html:72
+#: ../searx/templates/oscar/macros.html:74
+msgid "cached"
+msgstr "podėlio versija"
+
+#: ../searx/templates/oscar/macros.html:42
+#: ../searx/templates/oscar/macros.html:58
+#: ../searx/templates/oscar/macros.html:78
+#: ../searx/templates/oscar/macros.html:92
+msgid "proxied"
+msgstr "per įgaliotąjį serverį"
+
+#: ../searx/templates/oscar/macros.html:132
+#: ../searx/templates/oscar/preferences.html:252
+#: ../searx/templates/oscar/preferences.html:269
+msgid "Allow"
+msgstr "Leisti"
+
+#: ../searx/templates/oscar/macros.html:139
+msgid "supported"
+msgstr "palaikoma"
+
+#: ../searx/templates/oscar/macros.html:143
+msgid "not supported"
+msgstr "nepalaikoma"
+
+#: ../searx/templates/oscar/navbar.html:7
+#: ../searx/templates/oscar/preferences.html:16
+msgid "preferences"
+msgstr "nuostatos"
+
+#: ../searx/templates/oscar/preferences.html:12
+msgid "No HTTPS"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:21
+msgid "Preferences"
+msgstr "Nuostatos"
+
+#: ../searx/templates/oscar/preferences.html:26
+#: ../searx/templates/oscar/preferences.html:36
+msgid "General"
+msgstr "Bendra"
+
+#: ../searx/templates/oscar/preferences.html:27
+#: ../searx/templates/oscar/preferences.html:226
+msgid "Engines"
+msgstr "Sistemos"
+
+#: ../searx/templates/oscar/preferences.html:28
+#: ../searx/templates/oscar/preferences.html:329
+msgid "Plugins"
+msgstr "Įskiepiai"
+
+#: ../searx/templates/oscar/preferences.html:30
+#: ../searx/templates/oscar/preferences.html:359
+msgid "Answerers"
+msgstr "Atsakikliai"
+
+#: ../searx/templates/oscar/preferences.html:31
+#: ../searx/templates/oscar/preferences.html:412
+msgid "Cookies"
+msgstr "Slapukai"
+
+#: ../searx/templates/oscar/preferences.html:49
+#: ../searx/templates/oscar/preferences.html:52
+msgid "Default categories"
+msgstr "Numatytosios kategorijos"
+
+#: ../searx/templates/oscar/preferences.html:60
+msgid "Search language"
+msgstr "Paieškos kalba"
+
+#: ../searx/templates/oscar/preferences.html:61
+msgid "What language do you prefer for search?"
+msgstr "Kokią kalbą pageidaujate paieškai?"
+
+#: ../searx/templates/oscar/preferences.html:68
+msgid "Interface language"
+msgstr "Sąsajos kalba"
+
+#: ../searx/templates/oscar/preferences.html:69
+msgid "Change the language of the layout"
+msgstr "Keisti išdėstymo kalbą"
+
+#: ../searx/templates/oscar/preferences.html:81
+msgid "Autocomplete"
+msgstr "Automatinis užbaigimas"
+
+#: ../searx/templates/oscar/preferences.html:82
+msgid "Find stuff as you type"
+msgstr "Rasti medžiagą berašant"
+
+#: ../searx/templates/oscar/preferences.html:96
+msgid "Image proxy"
+msgstr "Paveikslų įgaliotasis serveris"
+
+#: ../searx/templates/oscar/preferences.html:97
+msgid "Proxying image results through searx"
+msgstr "Paveikslų persiuntimas įgaliotuoju serveriu per searx"
+
+#: ../searx/templates/oscar/preferences.html:102
+msgid "Enabled"
+msgstr "Įjungta"
+
+#: ../searx/templates/oscar/preferences.html:104
+msgid "Disabled"
+msgstr "Išjungta"
+
+#: ../searx/templates/oscar/preferences.html:110
+msgid "Method"
+msgstr "Metodas"
+
+#: ../searx/templates/oscar/preferences.html:111
+msgid ""
+"Change how forms are submited, <a href=\"http://en.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">learn more "
+"about request methods</a>"
+msgstr ""
+"Keisti kaip yra pateikiamos formos, <a href=\"http://en.wikipedia.org/wiki/"
+"Hypertext_Transfer_Protocol#Request_methods\" rel=\"external\">sužinokite "
+"daugiau apie užklausos metodus</a>"
+
+#: ../searx/templates/oscar/preferences.html:123
+#: ../searx/templates/oscar/preferences.html:256
+#: ../searx/templates/oscar/preferences.html:264
+msgid "SafeSearch"
+msgstr "Saugi paieška"
+
+#: ../searx/templates/oscar/preferences.html:124
+msgid "Filter content"
+msgstr "Filtruoti turinį"
+
+#: ../searx/templates/oscar/preferences.html:129
+msgid "Strict"
+msgstr "Griežta"
+
+#: ../searx/templates/oscar/preferences.html:131
+msgid "Moderate"
+msgstr "Nuosaiki"
+
+#: ../searx/templates/oscar/preferences.html:133
+msgid "None"
+msgstr "Nėra"
+
+#: ../searx/templates/oscar/preferences.html:139
+msgid "Themes"
+msgstr "Apipavidalinimai"
+
+#: ../searx/templates/oscar/preferences.html:140
+msgid "Change searx layout"
+msgstr "Keisti searx išdėstymą"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Choose style for this theme"
+msgstr "Pasirinkti šio apipavidalinimo stilių"
+
+#: ../searx/templates/oscar/preferences.html:152
+#: ../searx/templates/oscar/preferences.html:160
+msgid "Style"
+msgstr "Stilius"
+
+#: ../searx/templates/oscar/preferences.html:164
+msgid "Results on new tabs"
+msgstr "Rezultatai naujose kortelėse"
+
+#: ../searx/templates/oscar/preferences.html:165
+msgid "Open result links on new browser tabs"
+msgstr "Atverti rezultatų nuorodas naujose naršyklės kortelėse"
+
+#: ../searx/templates/oscar/preferences.html:170
+#: ../searx/templates/oscar/preferences.html:183
+msgid "On"
+msgstr "Įjungta"
+
+#: ../searx/templates/oscar/preferences.html:172
+#: ../searx/templates/oscar/preferences.html:185
+msgid "Off"
+msgstr "Išjungta"
+
+#: ../searx/templates/oscar/preferences.html:177
+#, fuzzy
+#| msgid "Advanced settings"
+msgid "Show advanced settings"
+msgstr "Išplėstiniai nustatymai"
+
+#: ../searx/templates/oscar/preferences.html:178
+msgid "Show advanced settings panel in the home page by default"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:190
+msgid "Open Access DOI resolver"
+msgstr "Atvirosios prieigos DOI sprendimų įtaisas"
+
+#: ../searx/templates/oscar/preferences.html:191
+msgid ""
+"Redirect to open-access versions of publications when available (plugin "
+"required)"
+msgstr ""
+"Kai įmanoma, peradresuoti į atvirojoje prieigoje esančias publikacijų "
+"versijas (reikalingas įskiepis)"
+
+#: ../searx/templates/oscar/preferences.html:205
+msgid "Engine tokens"
+msgstr "Sistemos prieigos raktai"
+
+#: ../searx/templates/oscar/preferences.html:206
+msgid "Access tokens for private engines"
+msgstr "Privačiųjų sistemų prieigos raktai"
+
+#: ../searx/templates/oscar/preferences.html:235
+msgid "Allow all"
+msgstr "Leisti visus"
+
+#: ../searx/templates/oscar/preferences.html:237
+msgid "Disable all"
+msgstr "Išjungti visus"
+
+#: ../searx/templates/oscar/preferences.html:253
+#: ../searx/templates/oscar/preferences.html:268
+msgid "Engine name"
+msgstr "Sistemos pavadinimas"
+
+#: ../searx/templates/oscar/preferences.html:254
+#: ../searx/templates/oscar/preferences.html:267
+msgid "Shortcut"
+msgstr "Trumpinys"
+
+#: ../searx/templates/oscar/preferences.html:255
+#: ../searx/templates/oscar/preferences.html:266
+msgid "Selected language"
+msgstr "Pasirinkta kalba"
+
+#: ../searx/templates/oscar/preferences.html:257
+#: ../searx/templates/oscar/preferences.html:263
+#: ../searx/templates/oscar/time-range.html:2
+msgid "Time range"
+msgstr "Laiko rėžis"
+
+#: ../searx/templates/oscar/preferences.html:258
+#: ../searx/templates/oscar/preferences.html:262
+msgid "Avg. time"
+msgstr "Vid. laikas"
+
+#: ../searx/templates/oscar/preferences.html:259
+#: ../searx/templates/oscar/preferences.html:261
+msgid "Max time"
+msgstr "Maks. laikas"
+
+#: ../searx/templates/oscar/preferences.html:362
+msgid "This is the list of searx's instant answering modules."
+msgstr "Tai yra searx greitų atsakiklių modulių sąrašas."
+
+#: ../searx/templates/oscar/preferences.html:366
+msgid "Name"
+msgstr "Pavadinimas"
+
+#: ../searx/templates/oscar/preferences.html:367
+#: ../searx/templates/oscar/results.html:191
+#: ../searx/templates/oscar/results.html:196
+#: ../searx/templates/oscar/results.html:204
+#: ../searx/templates/oscar/results.html:209
+msgid "Developer"
+msgstr ""
+
+#: ../searx/templates/oscar/preferences.html:368
+msgid "Description"
+msgstr "Aprašas"
+
+#: ../searx/templates/oscar/preferences.html:369
+msgid "Examples"
+msgstr "Pavyzdžiai"
+
+#: ../searx/templates/oscar/preferences.html:415
+msgid ""
+"This is the list of cookies and their values searx is storing on your "
+"computer."
+msgstr ""
+"Tai yra slapukų ir jų reikšmių, kuriuos searx laiko jūsų kompiuteryje, "
+"sąrašas."
+
+#: ../searx/templates/oscar/preferences.html:416
+msgid "With that list, you can assess searx transparency."
+msgstr "Naudodami sąrašą, galite įvertinti searx skaidrumą."
+
+#: ../searx/templates/oscar/preferences.html:421
+msgid "Cookie name"
+msgstr "Slapuko pavadinimas"
+
+#: ../searx/templates/oscar/preferences.html:422
+msgid "Value"
+msgstr "Reikšmė"
+
+#: ../searx/templates/oscar/preferences.html:439
+msgid ""
+"These settings are stored in your cookies, this allows us not to store this "
+"data about you."
+msgstr ""
+"Šie nustatymai yra laikomi jūsų slapukuose, tai leidžia mums nesaugoti šių "
+"duomenų apie jus."
+
+#: ../searx/templates/oscar/preferences.html:440
+msgid ""
+"These cookies serve your sole convenience, we don't use these cookies to "
+"track you."
+msgstr ""
+"Šie slapukai yra naudojami išskirtinai jūsų patogumui, mes nenaudojame jų, "
+"kad jus sektume."
+
+#: ../searx/templates/oscar/preferences.html:444
+msgid "Search URL of the currently saved preferences"
+msgstr "Šiuo metu įrašytų nuostatų paieškos URL"
+
+#: ../searx/templates/oscar/preferences.html:445
+msgid ""
+"Note: specifying custom settings in the search URL can reduce privacy by "
+"leaking data to the clicked result sites."
+msgstr ""
+"Pastaba: paieškos URL adrese nurodant tinkintus nustatymus, gali būti "
+"sumažintas jūsų privatumas, atskleidžiant duomenis toms rezultatų "
+"svetainėms, ant kurių spustelėjate."
+
+#: ../searx/templates/oscar/preferences.html:452
+msgid "save"
+msgstr "Įrašyti"
+
+#: ../searx/templates/oscar/preferences.html:454
+msgid "back"
+msgstr "Atgal"
+
+#: ../searx/templates/oscar/preferences.html:457
+msgid "Reset defaults"
+msgstr "Atstatyti numatytuosius"
+
+#: ../searx/templates/oscar/results.html:39
+msgid "Engines cannot retrieve results"
+msgstr "Sistemos negali gauti rezultatų"
+
+#: ../searx/templates/oscar/results.html:55
+msgid "Suggestions"
+msgstr "Pasiūlymai"
+
+#: ../searx/templates/oscar/results.html:77
+msgid "Links"
+msgstr "Nuorodos"
+
+#: ../searx/templates/oscar/results.html:82
+msgid "Search URL"
+msgstr "Paieškos URL"
+
+#: ../searx/templates/oscar/results.html:88
+msgid "Download results"
+msgstr "Atsisiųsti rezultatus"
+
+#: ../searx/templates/oscar/results.html:100
+msgid "RSS subscription"
+msgstr "RSS prenumerata"
+
+#: ../searx/templates/oscar/results.html:107
+msgid "Search results"
+msgstr "Paieškos rezultatai"
+
+#: ../searx/templates/oscar/results.html:112
+msgid "Try searching for:"
+msgstr "Bandykite ieškoti:"
+
+#: ../searx/templates/oscar/results.html:159
+msgid "No Description provided by the developer"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:166
+#, fuzzy
+#| msgid "Issue tracker"
+msgid "Issue Tracker"
+msgstr "Klaidų sekiklis"
+
+#: ../searx/templates/oscar/results.html:175
+msgid ""
+"Source\n"
+"                                                        Code"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:183
+msgid "Website"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:253
+#: ../searx/templates/oscar/results.html:283
+#: ../searx/templates/oscar/results.html:296
+msgid "Missing Text"
+msgstr ""
+
+#: ../searx/templates/oscar/results.html:333
+#: ../searx/templates/oscar/results.html:367
+msgid "next page"
+msgstr "kitas puslapis"
+
+#: ../searx/templates/oscar/results.html:343
+#: ../searx/templates/oscar/results.html:357
+msgid "previous page"
+msgstr "ankstesnis puslapis"
+
+#: ../searx/templates/oscar/search.html:6
+#: ../searx/templates/oscar/search_full.html:9
+msgid "Search for..."
+msgstr "Ko ieškoti..."
+
+#: ../searx/templates/oscar/search.html:8
+#: ../searx/templates/oscar/search_full.html:11
+msgid "Start search"
+msgstr "Pradėti paiešką"
+
+#: ../searx/templates/oscar/search.html:9
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear search"
+msgstr "Išvalyti paiešką"
+
+#: ../searx/templates/oscar/search_full.html:12
+msgid "Clear"
+msgstr "Išvalyti"
+
+#: ../searx/templates/oscar/stats.html:2
+msgid "stats"
+msgstr "statistika"
+
+#: ../searx/templates/oscar/stats.html:5
+msgid "Engine stats"
+msgstr "Sistemos statistika"
+
+#: ../searx/templates/oscar/time-range.html:5
+msgid "Anytime"
+msgstr "Bet kada"
+
+#: ../searx/templates/oscar/time-range.html:8
+msgid "Last day"
+msgstr "Praeitą dieną"
+
+#: ../searx/templates/oscar/time-range.html:11
+msgid "Last week"
+msgstr "Praeitą savaitę"
+
+#: ../searx/templates/oscar/time-range.html:14
+msgid "Last month"
+msgstr "Praeitą mėnesį"
+
+#: ../searx/templates/oscar/time-range.html:17
+msgid "Last year"
+msgstr "Praeitais metais"
+
+#: ../searx/templates/oscar/messages/first_time.html:6
+#: ../searx/templates/oscar/messages/no_data_available.html:3
+msgid "Heads up!"
+msgstr "Dėmesio!"
+
+#: ../searx/templates/oscar/messages/first_time.html:7
+msgid "It look like you are using searx first time."
+msgstr "Atrodo, kad pirmą kartą naudojate searx."
+
+#: ../searx/templates/oscar/messages/no_cookies.html:3
+msgid "Information!"
+msgstr "Informacija!"
+
+#: ../searx/templates/oscar/messages/no_cookies.html:4
+msgid "currently, there are no cookies defined."
+msgstr "Šiuo metu nėra jokių apibrėžtų slapukų."
+
+#: ../searx/templates/oscar/messages/no_data_available.html:4
+msgid "There is currently no data available. "
+msgstr "Šiuo metu nėra jokių prieinamų duomenų."
+
+#: ../searx/templates/oscar/messages/no_results.html:4
+msgid "Engines cannot retrieve results."
+msgstr "Sistemos negali gauti rezultatų."
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Please, try again later or find another searx instance."
+msgstr "Vėliau bandykite dar kartą arba raskite kitą searx egzempliorių."
+
+#: ../searx/templates/oscar/messages/no_results.html:10
+msgid "Public instances"
+msgstr "Viešieji egzemplioriai"
+
+#: ../searx/templates/oscar/messages/no_results.html:14
+msgid "Sorry!"
+msgstr "Atleiskite!"
+
+#: ../searx/templates/oscar/messages/no_results.html:15
+msgid ""
+"we didn't find any results. Please use another query or search in more "
+"categories."
+msgstr ""
+"Mes neradome jokių rezultatų. Naudokite kitokią užklausą arba ieškokite "
+"kitose kategorijose."
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:7
+msgid "Well done!"
+msgstr "Gerai padirbėta!"
+
+#: ../searx/templates/oscar/messages/save_settings_successfull.html:8
+msgid "Settings saved successfully."
+msgstr "Nustatymai sėkmingai įrašyti."
+
+#: ../searx/templates/oscar/messages/unknow_error.html:7
+msgid "Oh snap!"
+msgstr "O, ne!"
+
+#: ../searx/templates/oscar/messages/unknow_error.html:8
+msgid "Something went wrong."
+msgstr "Kažkas nutiko."
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+#: ../searx/templates/oscar/result_templates/files.html:10
+msgid "show media"
+msgstr "rodyti mediją"
+
+#: ../searx/templates/oscar/result_templates/default.html:7
+#: ../searx/templates/oscar/result_templates/files.html:7
+msgid "hide media"
+msgstr "slėpti mediją"
+
+#: ../searx/templates/oscar/result_templates/files.html:33
+#: ../searx/templates/oscar/result_templates/videos.html:19
+msgid "Author"
+msgstr "Autorius"
+
+#: ../searx/templates/oscar/result_templates/files.html:35
+#, fuzzy
+#| msgid "Engine name"
+msgid "Filename"
+msgstr "Sistemos pavadinimas"
+
+#: ../searx/templates/oscar/result_templates/files.html:37
+#: ../searx/templates/oscar/result_templates/torrent.html:7
+msgid "Filesize"
+msgstr "Failo dydis"
+
+#: ../searx/templates/oscar/result_templates/files.html:38
+#: ../searx/templates/oscar/result_templates/torrent.html:9
+msgid "Bytes"
+msgstr "Baitai"
+
+#: ../searx/templates/oscar/result_templates/files.html:39
+#: ../searx/templates/oscar/result_templates/torrent.html:10
+msgid "kiB"
+msgstr "kiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:40
+#: ../searx/templates/oscar/result_templates/torrent.html:11
+msgid "MiB"
+msgstr "MiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:41
+#: ../searx/templates/oscar/result_templates/torrent.html:12
+msgid "GiB"
+msgstr "GiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:42
+#: ../searx/templates/oscar/result_templates/torrent.html:13
+msgid "TiB"
+msgstr "TiB"
+
+#: ../searx/templates/oscar/result_templates/files.html:46
+msgid "Date"
+msgstr ""
+
+#: ../searx/templates/oscar/result_templates/files.html:48
+msgid "Type"
+msgstr ""
+
+#: ../searx/templates/oscar/result_templates/images.html:27
+msgid "Get image"
+msgstr "Gauti paveikslą"
+
+#: ../searx/templates/oscar/result_templates/images.html:30
+msgid "View source"
+msgstr "Rodyti šaltinį"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "show map"
+msgstr "rodyti žemėlapį"
+
+#: ../searx/templates/oscar/result_templates/map.html:7
+msgid "hide map"
+msgstr "slėpti žemėlapį"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "show details"
+msgstr "rodyti informaciją"
+
+#: ../searx/templates/oscar/result_templates/map.html:11
+msgid "hide details"
+msgstr "slėpti informaciją"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Seeder"
+msgstr "Skleidėjai"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:6
+msgid "Leecher"
+msgstr "Siuntėjai"
+
+#: ../searx/templates/oscar/result_templates/torrent.html:15
+msgid "Number of Files"
+msgstr "Failų skaičius"
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "show video"
+msgstr "rodyti vaizdo įrašą"
+
+#: ../searx/templates/oscar/result_templates/videos.html:7
+msgid "hide video"
+msgstr "slėpti vaizdo įrašą"
+
+#: ../searx/templates/oscar/result_templates/videos.html:20
+msgid "Length"
+msgstr "Trukmė"
+
+#~ msgid "CAPTCHA required"
+#~ msgstr "Reikalingas saugos kodas"
+
+#~ msgid ""
+#~ "Results are opened in the same window by default. This plugin overwrites "
+#~ "the default behaviour to open links on new tabs/windows. (JavaScript "
+#~ "required)"
+#~ msgstr ""
+#~ "Pagal numatymą, rezultatai yra atveriami tame pačiame lange. Šis įskiepis "
+#~ "perrašo numatytąją elgseną taip, kad nuorodos būtų atveriamos naujose "
+#~ "kortelėse/languose. (reikalinga JavaScript)"
+
+#~ msgid "Color"
+#~ msgstr "Spalva"
+
+#~ msgid "Blue (default)"
+#~ msgstr "Mėlyna (numatytoji)"
+
+#~ msgid "Violet"
+#~ msgstr "Violetinė"
+
+#~ msgid "Green"
+#~ msgstr "Žalia"
+
+#~ msgid "Cyan"
+#~ msgstr "Žydra"
+
+#~ msgid "Orange"
+#~ msgstr "Oranžinė"
+
+#~ msgid "Red"
+#~ msgstr "Raudona"
+
+#~ msgid "Currently used search engines"
+#~ msgstr "Šiuo metu naudojamos paieškos sistemos"
+
+#~ msgid "Category"
+#~ msgstr "Kategorija"
+
+#~ msgid "Block"
+#~ msgstr "Blokuoti"
+
+#~ msgid "Answers"
+#~ msgstr "Atsakymai"
+
+#~ msgid "original context"
+#~ msgstr "pradinis kontekstas"
+
+#~ msgid "Click on the magnifier to perform search"
+#~ msgstr "Norėdami atlikti paiešką, spustelėkite ant didinamojo stiklo"
+
+#~ msgid "Powered by"
+#~ msgstr "Veikia su"
+
+#~ msgid "Keywords"
+#~ msgstr "Raktažodžiai"
+
+#~ msgid "Load more..."
+#~ msgstr "Įkelti daugiau..."
+
+#~ msgid "Supports selected language"
+#~ msgstr "Palaiko pasirinktą kalbą"
+
+#~ msgid "User interface"
+#~ msgstr "Naudotojo sąsaja"
+
+#~ msgid "Privacy"
+#~ msgstr "Privatumas"
+
+#~ msgid "Loading..."
+#~ msgstr "Įkeliama..."
